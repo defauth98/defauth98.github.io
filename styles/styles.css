@@ -20,17 +20,24 @@ body {
   justify-content: center;
 
   margin-top: 350px;
+
+  margin-left: -80px;
 }
 
-#about img {
+#me-photo {
   width: 250px;
 
   border-radius: 50%;
 
-  margin-right: 100px;
+  margin-top: 62px;
 }
 
-#about div h1 {
+#about-me {
+  margin-right: 150px;
+  margin-left: 120px;
+}
+
+#about-me h1 {
   font-family: Ubuntu, sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -39,12 +46,26 @@ body {
   margin-bottom: 20px;
 }
 
-#about div p {
+#about-me p {
   text-align: center;
 
   font-family: Mukta, sans-serif;
   font-size: 20px;
 
   width: 450px;
+}
 
+#aside-bar {
+  display: flex;
+
+  flex-direction: column;
+}
+
+#aside-bar img {
+  width:40px; 
+}
+
+#skills-icon {
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
