@@ -11,13 +11,25 @@ body {
   background-color: #191A1D;
 
   color: #ffffff;
-
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
 
   align-items: center;
   justify-content: center;
+
+  padding-top: 150px;
+}
+
+a {
+  color: #ffffff;
+  font-family: Mukta;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5
 }
 
 #about {
@@ -27,6 +39,9 @@ body {
   justify-content: center;
 
   margin-left: -17px;
+  margin-top: 300px;
+  padding-top: 800px;
+  padding-bottom: 440px;
 }
 
 #me-photo {
@@ -97,7 +112,47 @@ body {
   opacity: 0.5
 }
 
+#section-skills {
+  width: 100%;
+  height: 100%;
+  background: #696773;  
+  padding-top: 100px;
+  padding-left: 470px;
+  padding-bottom: 300px;
+}
 
+#section-skills h2 {
+  color: white;
+  font-family: Mukta;
+  font-size: 35px;
+
+  margin-bottom: 30px;
+}
+
+
+
+#section-skills ul {
+  list-style: none;
+}
+
+#section-skills ul li {
+  display: flex;
+
+  align-items: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#section-skills ul li img {
+  margin-right: 10px;
+}
+
+#section-skills ul li h3 {
+  color: white;
+  font-family: Mukta;
+  font-size: 24px;
+}
 
 @keyframes backMove {
   0% {
