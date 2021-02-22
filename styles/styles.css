@@ -98,13 +98,16 @@ a:hover {
   z-index: 10;
   right:0;
 
+  margin-right:200px;
+
+  height: 200px;
+  justify-content: space-between;
 }
 
 #aside-bar .menu-item {
   width: 60px;
 
   display: flex;
-  margin-right:200px;
 }
 
 #aside-bar .menu-item img {
@@ -113,23 +116,7 @@ a:hover {
 
 #aside-bar .menu-item h3 {
   display:none;
-}
-
-#about-img, #about-text {
-  margin-bottom: 20px;
-}
-
-#skill-text, #skill-img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#blog-img, #blog-text {
-  margin-top: 25px;
-}
-
-#about-img:hover {
-  opacity: 0.5
+  height: 40px;
 }
 
 #section-skills {
@@ -249,7 +236,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1300px) {
   body {
     margin-top:0;
   }
