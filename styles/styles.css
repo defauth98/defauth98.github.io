@@ -32,6 +32,13 @@ a:hover {
   opacity: .5
 }
 
+.link-menu {
+  text-decoration: none;
+  color: white;
+  font-family: Mukta;
+  font-size: 20px;
+}
+
 #about {
   display: flex;
 
@@ -41,7 +48,7 @@ a:hover {
   margin-left: -17px;
   margin-top: 300px;
   padding-top: 800px;
-  padding-bottom: 440px;
+  padding-bottom: 480px;
 }
 
 #me-photo {
@@ -117,8 +124,8 @@ a:hover {
   height: 100%;
   background: #696773;  
   padding-top: 100px;
-  padding-left: 470px;
-  padding-bottom: 300px;
+  padding-left: 500px;
+  padding-bottom: 930px;
 }
 
 #section-skills h2 {
