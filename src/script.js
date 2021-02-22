@@ -10,6 +10,8 @@ const html = {
   blogContainer: document.querySelector('#blog-container'),
   blogImg: document.querySelector('#blog-img'),
   blogText: document.querySelector('#blog-text'),
+
+  skillAnchor: document.querySelector('#skill-anchor'),
 };
 
 function hoverImg() {
