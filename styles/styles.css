@@ -104,7 +104,7 @@ a:hover {
   width: 60px;
 
   display: flex;
-  margin-right: 360px;
+  margin-right:200px;
 }
 
 #aside-bar .menu-item img {
@@ -242,23 +242,30 @@ a:hover {
 
 @keyframes back-to-front {
   0% {
-    /* font-size: 20px; */
     opacity:0;
   }
   100% {
-    /* font-size: 35px; */
     opacity:1;
   }
 }
 
 @media (min-width: 1300px) {
+  body {
+    margin-top:0;
+  }
+
   #about {
-    margin-top: 600px
+    margin-top: 450px;
+    height: 800px;
+    margin-bottom: 0px;
   }
 
   #section-skills{
     padding-left: 250px;
+    padding-top: 45px;
+    padding-bottom: 650px;
   }
+  
 }
 
 @media (min-width: 1600px){
@@ -268,5 +275,12 @@ a:hover {
 
   #section-skills{
     padding-left: 500px;
+    padding-top: 200px;
+  }  
+}
+
+@media (max-width:1200px){
+  #aside-bar .menu-item {
+    margin-right: 10px;  
   }
 }
