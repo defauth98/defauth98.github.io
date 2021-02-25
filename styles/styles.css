@@ -213,8 +213,9 @@ a:hover {
 
 @media (min-width: 1600px){
  #about {
-   height: 1080px;
+   height: 1040px;
    margin-left: -60px;
+   margin-top: 0px;
  }
 
  #section-skills {
