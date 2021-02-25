@@ -211,38 +211,20 @@ a:hover {
   }
 }
 
-@media (max-width: 1300px) {
-  body {
-    margin-top:0;
-  }
-
-  #about {
-    margin-top: 450px;
-    height: 800px;
-    margin-bottom: 0px;
-  }
-
-  #section-skills{
-    padding-left: 250px;
-    padding-top: 45px;
-    padding-bottom: 650px;
-  }
-  
-}
-
 @media (min-width: 1600px){
-  #about {
-    margin-top: 400px
-  }
+ #about {
+   height: 1080px;
+   margin-left: -60px;
+ }
 
-  #section-skills{
-    padding-left: 500px;
-    padding-top: 200px;
-  }  
-}
+ #section-skills {
+  height: 1080px;
 
-@media (max-width:1200px){
-  #aside-bar .menu-item {
-    margin-right: 10px;  
-  }
+  padding-top: 200px;
+  padding-left: 600px;
+ }
+
+ #aside-bar  {
+   margin-right: 350px;
+ }
 }
