@@ -12,7 +12,6 @@ html {
 body {
   background-color: #191A1D;
   color: #ffffff;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +44,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-left: -17px;
-  height: 700px;
+  height: 690px;
 }
 
 #me-photo {
@@ -101,8 +100,11 @@ a:hover {
 
 #section-skills {
   width: 100%;
-  height: 100%;
+  height: 690px;
   background: #696773;  
+  padding-top: 50px;
+  padding-left: 500px;
+  padding-bottom: 930px;
 }
 
 #section-skills h2 {
