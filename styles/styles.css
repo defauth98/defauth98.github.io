@@ -116,12 +116,14 @@ a:hover {
   animation: back-to-front .8s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
+  animation-play-state: paused;
 }
 
 #section-skills ul {
   list-style: none;
   animation: move-back 2s;
   animation-fill-mode: backwards;
+  animation-play-state: paused;
 }
 
 #section-skills ul li {

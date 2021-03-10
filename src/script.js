@@ -12,6 +12,8 @@ const html = {
   blogText: document.querySelector('#blog-text'),
 
   skillAnchor: document.querySelector('#skill-anchor'),
+  skillsTitle: document.querySelector('#my-skills'),
+  skillsList: document.querySelector('#skills-list'),
 };
 
 function hoverImg() {
@@ -52,4 +54,13 @@ function hoverImg() {
   });
 }
 
+function animationOnClick(){
+  html.skillAnchor.addEventListener('click', () => {
+    html.skillsList.style.animationPlayState = 'running';
+
+    html.skillsTitle.style.animationPlayState = 'running';
+  })
+}
+
 hoverImg();
+animationOnClick()
