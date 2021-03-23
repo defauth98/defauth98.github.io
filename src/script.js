@@ -12,6 +12,8 @@ const html = {
   blogText: document.querySelector('#blog-text'),
 
   skillAnchor: document.querySelector('#skill-anchor'),
+  skillsTitle: document.querySelector('#my-skills'),
+  skillsList: document.querySelector('#skills-list'),
 };
 
 function hoverImg() {
@@ -52,4 +54,27 @@ function hoverImg() {
   });
 }
 
-hoverImg();
+function animationOnClick(){
+  html.skillAnchor.addEventListener('click', () => {
+    html.skillsList.style.animationPlayState = 'running';
+
+    html.skillsTitle.style.animationPlayState = 'running';
+  })
+}
+
+function animationOnScroll(){
+  const titleElement = document.querySelector('#section-skills h2');
+  const listElement = document.querySelector('#section-skills ul');
+  const scrollY = window.scrollY;
+
+  if(scrollY > 600){
+    titleElement.style.animationPlayState  = 'running';
+    listElement.style.animationPlayState  = 'running';
+  }
+}
+
+window.onload = () => {
+  hoverImg();
+  animationOnClick();
+  window.onscroll = animationOnScroll
+}
