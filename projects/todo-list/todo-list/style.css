@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1616;
+}
+
+h1, p {
+  font-family: Raleway, sans-serif;
+}
+
+ul, li {
+  font-family: 'Patrick Hand', cursive;
+}
+
+button {
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #c5c5c5;
+  min-width: 50px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+i {
+  margin: 0 4px;
+}
+
+#main-container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 8px;
+}
+
+#main-container header h1 {
+  padding: 30px 20px 10px 20px;
+  font-weight: 600;
+}
+
+#main-container header p {
+  padding: 5px 20px;
+}
+
+#todo-list {  
+  padding: 20px 35px;
+}
+
+#texto-tarefa {
+  font-size: 16px;
+  border: 2px solid #c5c5c5;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: -15px;
+  width: 400px;
+}
+
+#criar-tarefa {
+  background-color: #c5c5c5;
+}
+
+#lista-tarefas {
+  margin: 20px 0;
+}
+
+.task {
+  font-size: 25px;
+  margin-left: 12px;
+  max-width: 600px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#buttons-container {
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+}

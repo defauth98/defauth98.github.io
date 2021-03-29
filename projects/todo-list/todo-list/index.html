@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/todo-list-favicon.png" />
+  <title>Lista de tarefas</title>
+</head>
+<body>
+  <div id="main-container">
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <section id="todo-list">
+      <input type="text" id="texto-tarefa" placeholder="Digite sua tarefa">
+      <button id="criar-tarefa">Lista de tarefas</button>
+      <ol id="lista-tarefas">
+      </ol>
+      
+      <div id="buttons-container">
+        <div id="action-task-container">
+          <button id="salvar-tarefas">
+            <i class="far fa-save"></i>
+          </button>
+    
+          <button id="mover-cima">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          
+          <button id="mover-baixo">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+        </div>
+  
+        <div id="action-remove-container">
+          <button id="apaga-tudo">
+            <i class="fas fa-trash"></i>
+            Todos
+          </button>
+    
+          <button id="remover-selecionado">
+            <i class="fas fa-trash"></i>
+            Selecionado
+          </button>
+    
+          <button id="remover-finalizados">
+            <i class="fas fa-trash"></i>
+            Finalizados
+          </button>
+        </div>     
+      </div>
+      
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
