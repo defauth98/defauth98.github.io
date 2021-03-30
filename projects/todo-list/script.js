@@ -28,6 +28,10 @@ function clearTaskButton() {
 function createTask() {
   const taskInputName = document.getElementById('texto-tarefa');
 
+  if(taskInputName.value === ''){
+    return;
+  }
+
   const taskItem = document.createElement('li');
   taskItem.innerHTML = taskInputName.value;
   taskItem.className = 'task';
