@@ -1,11 +1,25 @@
+:root {
+  --color-background: #646881;
+  --color-blue: #5AD2F4;
+  --color-dark-green: #404E4D;
+  --color-gray: #D3CDD7
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--color-background);
 }
 
 #title , #clear-board {
   margin-left: 50px;
+}
+
+#title {
+  color: var(--color-blue);
+  font-family: sans-serif;
+  font-weight: 400;
 }
 
 #color-palette {
@@ -32,8 +46,8 @@ body {
 }
 
 .pixel {
-  border: 1px solid black;
-  background-color: white;
+  border: 1px solid var(--color-dark-green  );
+  background-color: var(--color-gray);
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -45,4 +59,14 @@ body {
 
 #board span {
   margin-left: 50px;
+}
+
+#header span {
+  color: var(--color-blue);
+  font-family: 18px;
+}
+
+#line-button {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
