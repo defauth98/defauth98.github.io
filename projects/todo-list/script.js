@@ -10,7 +10,7 @@ function selectTask(item) {
   }
 
   taskItem.classList.add('selected');
-  taskItem.style.backgroundColor = 'rgb(128,128,128)';
+
 }
 
 function toggleDoneTask(item) {

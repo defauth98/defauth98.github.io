@@ -1,3 +1,11 @@
+:root {
+  --color-background:#2F2D2E;
+  --color-gren: #99C24D;
+  --color-blue: #048BA8;
+  --color-charcoal: #2E4057;
+  --color-orange: #F18F01;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +14,12 @@
 }
 
 body {
-  background-color: #1a1616;
+  background-color: var(--color-background);
 }
 
 h1, p {
   font-family: Raleway, sans-serif;
+  color: var(--color-charcoal);
 }
 
 ul, li {
@@ -25,6 +34,8 @@ button {
   min-width: 50px;
   cursor: pointer;
   opacity: 0.8;
+  color: white;
+  transition: 0.5s;
 }
 
 button:hover {
@@ -58,7 +69,7 @@ i {
 
 #texto-tarefa {
   font-size: 16px;
-  border: 2px solid #c5c5c5;
+  border: 2px solid var(--color-charcoal);
   border-radius: 4px;
   padding: 5px;
   margin-left: -15px;
@@ -66,13 +77,16 @@ i {
 }
 
 #criar-tarefa {
-  background-color: #1a1616;
+  background-color: var(--color-charcoal);
   color: white;
   border-radius: 4px;
+  border: 1px solid var(--color-charcoal);
+  margin-left: 10px;
 }
 
 #lista-tarefas {
   margin: 20px 0;
+  color: var(--color-charcoal);
 }
 
 .task {
@@ -81,15 +95,35 @@ i {
   max-width: 600px;
 }
 
+.selected {
+  background-color: #c5c5c5;
+}
+
 .completed {
   text-decoration: line-through;
 }
+
 
 #buttons-container {
   margin-left: -15px;
   display: flex;
   justify-content: space-between;
 }
+
+#salvar-tarefas {
+  background-color: var(--color-orange);
+  border: 1px solid #c5c5c5;
+}
+
+.move-button {
+  background-color: var(--color-gren);
+  border: 1px solid #c5c5c5;
+}
+
+.remove-button {
+  background-color: var(--color-blue);
+}
+
 
 @media (min-width: 1400px){
   #main-container {
