@@ -4,37 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <title>Facebook</title>
   </head>
   <body>
     <header class="top-bar">
-      <img
-        src="imgs/facebook-logo.png"
-        class="facebook-logo"
-        alt="Facebook logo"
-      />
-      <form action="" class="facebook-login">
-        <div class="form-group">
-          <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-          <input
-            id="user-email-phone"
-            name="user-email-phone"
-            type="text"
-          />
+      <div id="header-container">
+        <div id="logo-container">
+          <h1 id="facebook-logo"> 
+            Facebook
+          </h1>
         </div>
-        <div class="form-group">
-          <label id="user-password-label" for="user-password-label">Senha</label>
-          <input
-            id="user-password"
-            name="user-password-label"
-            type="text"
-          />
-        </div>
-        <div class="form-control">
-          <button id="button-login">Entrar</button>
-        </div>
-      </form>
+        <div id="form-container">
+          <form action="" class="facebook-login">
+            <div class="form-group">
+              <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+              <input
+                id="user-email-phone"
+                name="user-email-phone"
+                type="text"
+              />
+            </div>
+            <div class="form-group">
+              <label id="user-password-label" for="user-password-label">Senha</label>
+              <input
+                id="user-password"
+                name="user-password-label"
+                type="text"
+              />
+            </div>
+            <div class="form-control">
+              <button id="button-login">Entrar</button>
+            </div>
+          </form>
+          <a href="" id="forgot">Esqueceu a conta?</a>
+        </div>       
+      </div>
+      
     </header>
     <main class="main-content">
       <div class="left-content">
@@ -52,6 +60,7 @@
             <input type="text" id="firstname" name="firstname" placeholder="Nome" />
             <input type="text" class='text-class' id="lastname" name="lastname" placeholder="Sobrenome" />
           </div>
+
           <input
             type="text"
             class='text-class'
@@ -59,24 +68,34 @@
             id="email"
             placeholder="Celular ou email"
           />
-          <input type="password" class='text-class' name="password" placeholder="Nova senha" />
-          <div>
+          <input type="password" class='text-class' id="password" name="password" placeholder="Nova senha" />
+
+          <div id="date-contianer">
             <label id="label-birthdate" for="birthdate">Data de nascimento</label>
             <input type="text" class='text-class' id="birthdate" name="birthdate" placeholder="dd/mm/aaaa" />
           </div>
+
           <div>
             <label for="gender" id="label-gender">Gênero</label>
-            <div id="inputs-container">
-              <input type="radio" name="gender" value="Feminino" checked>Feminino</input>
-              <input type="radio" name="gender" value="Masculino">Masculino</input>
-              <input type="radio" name="gender" id="custom-gender" value="Personalizado">Personalizado</input>
+              <div id="inputs-container">
+              <input type="radio" name="gender" value="Feminino" checked />
+              <label for="gender">Feminino</label>
+              <input type="radio" name="gender" value="Masculino"/>
+              <label for="gender">Masculino</label>
+              <input type="radio" name="gender" id="custom-gender" value="Personalizado"/>
+              <label for="gender">Customizado</label>
+              </div>
             </div>
-          </div>
+
           <div id="custom-gender-container">
             <input type="text" name="gender-custom" placeholder="Gênero (opcional)">
           </div>
-          <button id="facebook-register" type="submit">Cadastre-se</button>
+
+          <div>
+            <button id="facebook-register" type="submit">Cadastre-se</button>
+          </div>
         </form>
+          
       </div>
     </main>
     <script src="script.js"></script>
