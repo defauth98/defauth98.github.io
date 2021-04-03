@@ -145,6 +145,10 @@ a:hover {
 
 #section-projects {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  font-size: 30px;
 }
 
 @keyframes backMove {
