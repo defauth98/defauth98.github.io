@@ -143,6 +143,10 @@ a:hover {
   font-size: 24px;
 }
 
+#section-projects {
+  height: 100vh;
+}
+
 @keyframes backMove {
   0% {
     opacity: 0;
