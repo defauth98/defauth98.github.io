@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #191A1D;
+  background-color: #191a1d;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -21,14 +21,14 @@ body {
 a {
   color: #ffffff;
   font-family: Mukta;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 a:hover {
-  opacity: .5
+  opacity: 0.5;
 }
 
-.link-blog{
+.link-blog {
   text-decoration: none;
 }
 
@@ -78,8 +78,8 @@ a:hover {
   flex-direction: column;
   position: fixed;
   z-index: 10;
-  right:0;
-  margin-right:200px;
+  right: 0;
+  margin-right: 200px;
   height: 200px;
   justify-content: space-between;
 }
@@ -90,18 +90,18 @@ a:hover {
 }
 
 #aside-bar .menu-item img {
-  width:40px; 
+  width: 40px;
 }
 
 #aside-bar .menu-item h3 {
-  display:none;
+  display: none;
   height: 40px;
 }
 
 #section-skills {
   width: 100%;
   height: 690px;
-  background: #696773;  
+  background: #696773;
   padding-top: 50px;
   padding-left: 500px;
   padding-bottom: 930px;
@@ -113,7 +113,7 @@ a:hover {
   font-weight: 400;
   font-size: 40px;
   margin-bottom: 45px;
-  animation: back-to-front .8s;
+  animation: back-to-front 0.8s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
   animation-play-state: paused;
@@ -145,10 +145,27 @@ a:hover {
 
 #section-projects {
   height: 100vh;
+
   display: flex;
   flex-direction: column;
+
   padding-top: 100px;
+  margin-left: -100px;
+
   font-size: 30px;
+  font-family: Mukta;
+}
+
+#section-projects h2 {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+#section-projects a {
+  font-size: 22px;
 }
 
 @keyframes backMove {
@@ -157,24 +174,24 @@ a:hover {
     transform: scale(-45%);
   }
 
-  20%{
+  20% {
     transform: scale(-40%);
   }
 
-  40%{
+  40% {
     transform: scale(-35%);
   }
 
-  60%{
+  60% {
     transform: scale(-30%);
   }
 
   80 {
-    transform: scale(-20%)
+    transform: scale(-20%);
   }
 
   90% {
-    transform: scale(-10%)
+    transform: scale(-10%);
   }
   100% {
     opacity: 1;
@@ -189,7 +206,7 @@ a:hover {
   }
 
   50% {
-    opacity:.5;
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
@@ -204,7 +221,7 @@ a:hover {
   }
 
   50% {
-    opacity:.5;
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
@@ -214,28 +231,28 @@ a:hover {
 
 @keyframes back-to-front {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
-@media (min-width: 1600px){
- #about {
-   height: 1040px;
-   margin-left: -60px;
-   margin-top: 0px;
- }
+@media (min-width: 1600px) {
+  #about {
+    height: 1040px;
+    margin-left: -60px;
+    margin-top: 0px;
+  }
 
- #section-skills {
-  height: 1080px;
+  #section-skills {
+    height: 1080px;
 
-  padding-top: 200px;
-  padding-left: 600px;
- }
+    padding-top: 200px;
+    padding-left: 600px;
+  }
 
- #aside-bar  {
-   margin-right: 350px;
- }
+  #aside-bar {
+    margin-right: 350px;
+  }
 }
