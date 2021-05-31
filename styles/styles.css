@@ -149,9 +149,6 @@ a:hover {
   display: flex;
   flex-direction: column;
 
-  padding-top: 100px;
-  margin-left: -100px;
-
   font-size: 30px;
   font-family: Mukta;
 }
@@ -254,5 +251,10 @@ a:hover {
 
   #aside-bar {
     margin-right: 350px;
+  }
+
+  #section-projects {
+    padding-top: 100px;
+    margin-left: -100px;
   }
 }
