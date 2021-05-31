@@ -1,8 +1,8 @@
 :root {
-  --color-background: #646881;
-  --color-blue: #5AD2F4;
-  --color-dark-green: #404E4D;
-  --color-gray: #D3CDD7
+  --color-background: #333;
+  --color-blue: #5ad2f4;
+  --color-dark-green: #404e4d;
+  --color-gray: #d3cdd7;
 }
 
 body {
@@ -12,7 +12,8 @@ body {
   background-color: var(--color-background);
 }
 
-#title , #clear-board {
+#title,
+#clear-board {
   margin-left: 50px;
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 .pixel {
-  border: 1px solid var(--color-dark-green  );
+  border: 1px solid var(--color-dark-green);
   background-color: var(--color-gray);
   width: 40px;
   height: 40px;
