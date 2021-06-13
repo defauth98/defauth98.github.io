@@ -11,7 +11,7 @@ Aplicação web para armazenar meus projetos pessoais
 
 ### :nut_and_bolt: Tecnologias
 
-Esse projeto foi desenvolvido com a seguinte técnologias:
+Esse projeto foi desenvolvido com a seguinte tecnologias:
 
 - [HTML5][html]
 - [CSS][css]
