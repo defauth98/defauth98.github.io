@@ -53,31 +53,9 @@ body {
   max-width: 25rem;
 }
 
-#aside-bar {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  z-index: 10;
-  right: 0;
-  margin-right: 200px;
-  height: 200px;
-  justify-content: space-between;
-}
+#about-me p > a {
+  color: #c0c0c0;
 
-#aside-bar .menu-item {
-  width: 60px;
-  display: flex;
-  cursor: pointer;
-}
-
-#aside-bar .menu-item img {
-  width: 40px;
-}
-
-#aside-bar .menu-item h3 {
-  display: none;
-  height: 40px;
-}
 
 #section-skills {
   background: #696773;
@@ -147,18 +125,31 @@ body {
   color: #c0c0c0;
 }
 
-@keyframes backMove {
-  0% {
-    opacity: 0;
-  }
 
-  50% {
-    opacity: 0.5;
-  }
+#aside-bar {
+  display: none;
+}
 
-  100% {
-    opacity: 1;
-  }
+a {
+  color: #ffffff;
+  font-family: Mukta;
+  transition: opacity 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.link-blog {
+  text-decoration: none;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: white;
+  font-family: Mukta;
+  font-size: 20px;
+
 }
 
 @media (min-width: 1000px) {
@@ -256,8 +247,4 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
-  #aside-bar {
-    /* margin-right: 350px; */
-  }
-}
+
