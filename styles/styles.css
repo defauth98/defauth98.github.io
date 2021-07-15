@@ -18,6 +18,10 @@ body {
   justify-content: center;
 }
 
+aside {
+  display: none;
+}
+
 #about {
   height: 100vh;
   display: flex;
@@ -55,7 +59,7 @@ body {
 
 #about-me p > a {
   color: #c0c0c0;
-
+}
 
 #section-skills {
   background: #696773;
@@ -125,7 +129,6 @@ body {
   color: #c0c0c0;
 }
 
-
 #aside-bar {
   display: none;
 }
@@ -149,7 +152,6 @@ a:hover {
   color: white;
   font-family: Mukta;
   font-size: 20px;
-
 }
 
 @media (min-width: 1000px) {
@@ -246,5 +248,3 @@ a:hover {
     }
   }
 }
-
-
