@@ -21,7 +21,7 @@ function hoverImg() {
     html.aboutImg.style.display = 'none';
     html.aboutText.style.display = 'block';
     html.aboutText.style.animation = 'move 1s';
-    html.aboutImg.style.animation = 'backMove 2.5s';
+    html.aboutImg.style.animation = 'backMove 1.5s';
   });
 
   html.aboutContainer.addEventListener('mouseleave', () => {
@@ -33,7 +33,7 @@ function hoverImg() {
     html.skillImg.style.display = 'none';
     html.skillText.style.display = 'block';
     html.skillText.style.animation = 'move 1s';
-    html.skillImg.style.animation = 'backMove 2.5s';
+    html.skillImg.style.animation = 'backMove 1.5s';
   });
 
   html.skillContainer.addEventListener('mouseleave', () => {
@@ -45,7 +45,7 @@ function hoverImg() {
     html.blogImg.style.display = 'none';
     html.blogText.style.display = 'block';
     html.blogText.style.animation = 'move 1s';
-    html.blogImg.style.animation = 'backMove 2.5s';
+    html.blogImg.style.animation = 'backMove 1.5s';
   });
 
   html.blogContainer.addEventListener('mouseleave', () => {

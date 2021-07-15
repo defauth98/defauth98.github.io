@@ -20,54 +20,60 @@
   </head>
   <body>
     <section id="about">
-      <img
+      <div id="about-content">
+        <img
         src="images/daniel_ribeiro.jpg"
         alt="Foto do Daniel Ribeiro"
         id="me-photo"
-      />
+        />
 
-      <div id="about-me">
-        <h1>Daniel Ribeiro</h1>
-        <p>
-          Sou apaixonado por tecnologia e marcas que buscam uma maior interação
-          digital. Estudo desenvolvimento de sotfware na
-          <a href="https://blog.betrybe.com/" target="_blank">Trybe</a>, uma
-          escola que usa de metodologias para fazer com que os alunos realmente
-          aprendam e se desenvolvam com uma experiência real de um dia de
-          trabalho como desenvolvedor.
-        </p>
+        <div id="about-me">
+          <h1>Daniel Ribeiro</h1>
+          <p>
+            Sou apaixonado por tecnologia e marcas que buscam uma maior interação
+            digital. Estudo desenvolvimento de sotfware na
+            <a href="https://blog.betrybe.com/" target="_blank">Trybe</a>, uma
+            escola que usa de metodologias para fazer com que os alunos realmente
+            aprendam e se desenvolvam com uma experiência real de um dia de
+            trabalho como desenvolvedor.
+          </p>
+        </div>
       </div>
+      
 
       <aside id="aside-bar">
-        <div class="menu-item" id="about-container">
-          <img src="images/list-icon.png" alt="Icone de lista" id="about-img" />
-
-          <h3 id="about-text">
-            <a href="#about" class="link-menu">Sobre</a>
-          </h3>
+        <div id="aside-bar-content">
+          <div class="menu-item" id="about-container">
+            <img src="images/about-icon.svg" alt="Icone de lista" id="about-img" />
+  
+            <h3 id="about-text" class="menu-text" >
+              <a href="#about" class="link-menu">Sobre</a>
+            </h3>
+          </div>
+  
+          <div class="menu-item" id="skill-container">
+            <img
+              src="images/skills-icon.svg"
+              alt="Icone de habilidades"
+              id="skill-img"
+            />
+  
+            <h3 id="skill-text" class="menu-text">
+              <a href="#section-skills" id="skill-anchor" class="link-menu"
+                >Habilidades</a
+              >
+            </h3>
+          </div>
+  
+          <div class="menu-item" id="blog-container">
+            <img src="images/projects-icon.svg" alt="Icone de blog" id="blog-img" />
+  
+            <h3 id="blog-text" class="menu-text">
+              <a href="#section-projects" class="link-blog">Projects</a>
+            </h3>
+          </div>
         </div>
-
-        <div class="menu-item" id="skill-container">
-          <img
-            src="images/skills-icons.png"
-            alt="Icone de habilidades"
-            id="skill-img"
-          />
-
-          <h3 id="skill-text">
-            <a href="#section-skills" id="skill-anchor" class="link-menu"
-              >Habilidades</a
-            >
-          </h3>
-        </div>
-
-        <div class="menu-item" id="blog-container">
-          <img src="images/blog-icon.png" alt="Icone de blog" id="blog-img" />
-
-          <h3 id="blog-text">
-            <a href="#section-projects" class="link-blog">Projects</a>
-          </h3>
-        </div>
+        
       </aside>
     </section>
 
@@ -126,36 +132,58 @@
 
     <section id="section-projects">
       <h2>Meus projetos</h2>
-      <a href="https://movie-cards-library-defauth98.netlify.app">
-        Movie Cards Library</a
-      >
-      <a href="https://movie-cards-library-stateful-defauth98.netlify.app">
-        Movie Cards Library Stateful</a
-      >
-      <a href="https://movie-cards-library-crud-defauth98.netlify.app">
-        Movie Cards Library CRUD</a
-      >
-      <a href="https://defauth98.github.io./projects/color-guess/index.html"
-        >Color Guess</a
-      >
-      <a href="https://defauth98.github.io./projects/facebook-signup/index.html"
+      <ul>
+        <li>
+          <a href="https://movie-cards-library-defauth98.netlify.app">
+            Movie Cards Library</a
+          >
+        </li>
+        <li>
+          <a href="https://movie-cards-library-stateful-defauth98.netlify.app">
+            Movie Cards Library Stateful</a
+          >
+        </li>
+        <li>
+          <a href="https://movie-cards-library-crud-defauth98.netlify.app">
+            Movie Cards Library CRUD</a
+          >
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/color-guess/index.html"
+          >Color Guess</a
+        >
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/facebook-signup/index.html"
         >Facebook Sign Up</a
       >
-      <a href="https://defauth98.github.io./projects/lessons-learned/index.html"
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/lessons-learned/index.html"
         >Lessons Learned</a
       >
-      <a href="https://defauth98.github.io./projects/pixels-art/index.html"
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/pixels-art/index.html"
         >Pixels Art</a
       >
-      <a href="https://defauth98.github.io./projects/todo-list/index.html"
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/todo-list/index.html"
         >Todo List</a
       >
-      <a href="https://defauth98.github.io./projects/meme-generator/index.html"
-        >Meme generator</a
-      >
-      <a href="https://defauth98.github.io./projects/mistery-letter/index.html"
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/meme-generator/index.html"
+          >Meme generator</a
+        >
+        </li>
+        <li>
+          <a href="https://defauth98.github.io./projects/mistery-letter/index.html"
         >Mistery Letter</a
       >
+        </li>
+      </ul>
     </section>
 
     <script src="src/script.js"></script>
