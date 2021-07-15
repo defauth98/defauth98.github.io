@@ -55,7 +55,7 @@ body {
 
 #about-me p > a {
   color: #c0c0c0;
-}
+
 
 #section-skills {
   background: #696773;
@@ -125,6 +125,7 @@ body {
   color: #c0c0c0;
 }
 
+
 #aside-bar {
   display: none;
 }
@@ -148,6 +149,7 @@ a:hover {
   color: white;
   font-family: Mukta;
   font-size: 20px;
+
 }
 
 @media (min-width: 1000px) {
@@ -245,8 +247,4 @@ a:hover {
   }
 }
 
-@media (min-width: 1600px) {
-  #aside-bar {
-    /* margin-right: 350px; */
-  }
-}
+
