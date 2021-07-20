@@ -14,6 +14,8 @@ const html = {
   skillAnchor: document.querySelector('#skill-anchor'),
   skillsTitle: document.querySelector('#my-skills'),
   skillsList: document.querySelector('#skills-list'),
+
+  asidebar: document.querySelector('#aside-bar'),
 };
 
 function hoverImg() {
@@ -71,10 +73,30 @@ function animationOnScroll(){
     titleElement.style.animationPlayState  = 'running';
     listElement.style.animationPlayState  = 'running';
   }
+
+  if(scrollY > 1220) {
+    hideAsideBar();
+  }
+
+  if(scrollY < 1220) {
+    showAsidebar();
+  }
+ }
+
+function hideAsideBar() {
+  html.asidebar.style.display = 'none';
+}
+
+function showAsidebar() {
+  html.asidebar.style.display = 'flex';
 }
 
 window.onload = () => {
   hoverImg();
   animationOnClick();
-  window.onscroll = animationOnScroll
+  window.onscroll = animationOnScroll;
+
+  if(window.scrollY > 1220){
+    html.asidebar.style.display = 'none';
+  }
 }
