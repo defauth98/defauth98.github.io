@@ -1,3 +1,140 @@
+const projectList = 
+[
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+  {
+    id: 1,
+    title: 'Movie Cards Library',
+    tags: '#frontend #react',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+  },
+]
+
 const html = {
   aboutContainer: document.querySelector('#about-container'),
   aboutImg: document.querySelector('#about-img'),
@@ -16,6 +153,7 @@ const html = {
   skillsList: document.querySelector('#skills-list'),
 
   asidebar: document.querySelector('#aside-bar'),
+  projectList: document.querySelector('#project-list')
 };
 
 function hoverImg() {
@@ -91,9 +229,58 @@ function showAsidebar() {
   html.asidebar.style.display = 'flex';
 }
 
+function createHTMLElement (element, childs, text ,className) {
+  const HTMLElement = document.createElement(element);
+
+  if(childs !== null && childs.length >= 1) {
+    childs.forEach(element => {
+      HTMLElement.appendChild(element)
+    })
+  }
+
+  if(text) {
+    HTMLElement.innerText = text;
+  }
+
+  if(className) {
+    HTMLElement.className = className;
+  }
+
+  return HTMLElement;
+}
+
+function createProjectCard(project) {
+  const projectImage = createHTMLElement('img', null, null, 'project-image');
+  projectImage.src = project.thumbnail_path;
+  projectImage.alt = project.title;
+
+  const projectImageContainer = createHTMLElement('div', [projectImage], null , 
+  'image-container' )
+
+
+  const projectTitle = createHTMLElement('h2', null ,project.title, null);
+  const projectTags = createHTMLElement('span', null, project.tags, null)
+  const projetcInfoContainer = createHTMLElement('div', [projectTitle, projectTags], null,
+   'project-info');
+
+  const projectButton = createHTMLElement('button', 
+    [projectImageContainer, projetcInfoContainer], null, 'project-button');
+  projectButton.type = 'button';
+  const projectContainer = createHTMLElement('li', [projectButton], null, null)
+
+  html.projectList.appendChild(projectContainer);
+}
+
+function createProjectCardList() {
+  projectList.forEach(element => {
+    createProjectCard(element)
+  });
+}
+
 window.onload = () => {
   hoverImg();
   animationOnClick();
+  createProjectCardList();
   window.onscroll = animationOnScroll;
 
   if(window.scrollY > 1220){
