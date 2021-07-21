@@ -124,10 +124,10 @@ aside {
   margin-bottom: 2rem;
 }
 
-#section-projects a {
+/* #section-projects a {
   font-size: 22px;
   color: #c0c0c0;
-}
+} */
 
 #aside-bar {
   display: none;
@@ -228,29 +228,96 @@ a:hover {
 
   #section-projects {
     display: block;
-    padding: 2rem 2rem;
-    height: 100%;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section-projects-content {
+    width: 90%;
+    height: 95%;
+  }
+
+  #section-projects-content header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    height: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #section-projects-content header nav {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  #about-menu, #skills-menu {
+    color:white;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+
+  #skills-menu {
+    margin: 0 1.6rem;
+  }
+
+  #about-menu:hover , #skills-menu:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+  }
+
+  #search-button {
+    width: 1.6rem;
+    height: 1.6rem;
+
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #search-button img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #search-button:hover {
+    opacity: 0.6;
   }
 
   #section-project-title {
-    margin-left: 5.5rem;
+    margin-bottom: 0;
   }
 
   #section-projects ul {
-    width: 90%;
+    padding: 0 4rem;
     margin: 0 auto;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2rem;
   }
 
   #section-projects ul li {
     width: 17rem;
     height: 13rem;
     margin: 0;
+    margin-bottom: 2rem;
     border-radius: 0.6rem;
-    border: 3px solid gray
+    border: 3px solid gray;
+    transition: all 0.4s;
+  }
+
+  #section-projects ul li:hover {
+    z-index: 1;
+    transform: scale(1.2);
   }
 
   .project-button {
