@@ -65,28 +65,36 @@ const projectList =
     link: 'https://defauth98.github.io/movie-cards-library-crud'
   },
   {
-    id: 8,
-    title: 'Movie Library CRUD',
+    id: 9,
+    title: 'Frontend Online Store',
     tags: '#frontend #react',
-    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
-    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
-    link: 'https://defauth98.github.io/movie-cards-library-crud'
+    description: 'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos de Scrum e Kanban em prática',
+    thumbnail_path: 'images/projects-thubnails/frontend-online-store.png',
+    link: 'https://defauth98.github.io/frontend-online-store'
   },
   {
-    id: 8,
-    title: 'Movie Library CRUD',
-    tags: '#frontend #react',
-    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
-    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
-    link: 'https://defauth98.github.io/movie-cards-library-crud'
+    id: 10,
+    title: 'Trybewallet',
+    tags: '#frontend #react #redux',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática.',
+    thumbnail_path: 'images/projects-thubnails/trybewallet.png',
+    link: 'https://defauth98.github.io/trybewallet'
   },
   {
-    id: 8,
-    title: 'Movie Library CRUD',
-    tags: '#frontend #react',
-    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
-    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
-    link: 'https://defauth98.github.io/movie-cards-library-crud'
+    id: 11,
+    title: 'Trivia',
+    tags: '#frontend #react #redux',
+    description: 'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração.',
+    thumbnail_path: 'images/projects-thubnails/trivia.png',
+    link: 'https://defauth98.github.io/trivia'
+  },
+  {
+    id: 12,
+    title: 'Recipes App',
+    tags: '#frontend #react #hooks',
+    description: 'Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática.',
+    thumbnail_path: 'images/projects-thubnails/recipes-app.png',
+    link: 'https://defauth98.github.io/recipes-app'
   },
 ]
 
