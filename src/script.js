@@ -2,101 +2,91 @@ const projectList =
 [
   {
     id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    title: 'Lessons Learned',
+    tags: '#fundamentos #html #css',
+    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de HTML5 e CSS3 em prática, usando semântica nos elementos e CSS para posicionar.',
+    thumbnail_path: 'images/projects-thubnails/lessons-learned.png',
+    link: 'https://defauth98.github.io/projects/lessons-learned/index.html'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    id: 2,
+    title: 'Pixels Art',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
+    thumbnail_path: 'images/projects-thubnails/pixels-art.png',
+    link: 'https://defauth98.github.io/projects/pixels-art/index.html'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    id: 3,
+    title: 'TodoList',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
+    thumbnail_path: 'images/projects-thubnails/todo-list.png',
+    link: 'https://defauth98.github.io/projects/todo-list/index.html'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    id: 4,
+    title: 'Meme Generator',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da CSS em prática.',
+    thumbnail_path: 'images/projects-thubnails/meme-generator.png',
+    link: 'https://defauth98.github.io/projects/meme-generator/index.html'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    id: 5,
+    title: 'Shopping Cart',
+    tags: '#fundamentos #js #fetch',
+    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de requisições para APIs em prática.',
+    thumbnail_path: 'images/projects-thubnails/shopping-cart.png',
+    link: 'https://defauth98.github.io/projects/shopping-cart/index.html'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 6,
+    title: 'Movie Library',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de iniciar no desenvolvimento web usando o Framework React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-library.png',
+    link: 'https://defauth98.github.io/movie-cards-library'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 7,
+    title: 'Movie Library Statefull',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar formulários com React.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-stateful.png',
+    link: 'https://defauth98.github.io/movie-cards-library-stateful'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 8,
+    title: 'Movie Library CRUD',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
+    link: 'https://defauth98.github.io/movie-cards-library-crud'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 8,
+    title: 'Movie Library CRUD',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
+    link: 'https://defauth98.github.io/movie-cards-library-crud'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 8,
+    title: 'Movie Library CRUD',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
+    link: 'https://defauth98.github.io/movie-cards-library-crud'
   },
   {
-    id: 1,
-    title: 'Movie Cards Library',
+    id: 8,
+    title: 'Movie Library CRUD',
     tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
-  },
-  {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
-  },
-  {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
-  },
-  {
-    id: 1,
-    title: 'Movie Cards Library',
-    tags: '#frontend #react',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    thumbnail_path: 'images/projects-thubnails/movie-cards-library-crud.png',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
+    link: 'https://defauth98.github.io/movie-cards-library-crud'
   },
 ]
 
@@ -118,7 +108,8 @@ const html = {
   skillsList: document.querySelector('#skills-list'),
 
   asidebar: document.querySelector('#aside-bar'),
-  projectList: document.querySelector('#project-list')
+  projectList: document.querySelector('#project-list'),
+  modal: document.querySelector('#project-modal')
 };
 
 function hoverImg() {
@@ -194,7 +185,7 @@ function showAsidebar() {
   html.asidebar.style.display = 'flex';
 }
 
-function createHTMLElement (element, childs, text ,className) {
+function createHTMLElement (element, childs, text , className, id) {
   const HTMLElement = document.createElement(element);
 
   if(childs !== null && childs.length >= 1) {
@@ -209,6 +200,10 @@ function createHTMLElement (element, childs, text ,className) {
 
   if(className) {
     HTMLElement.className = className;
+  }
+
+  if(id) {
+    HTMLElement.id = id;
   }
 
   return HTMLElement;
@@ -231,6 +226,7 @@ function createProjectCard(project) {
   const projectButton = createHTMLElement('button', 
     [projectImageContainer, projetcInfoContainer], null, 'project-button');
   projectButton.type = 'button';
+  projectButton.onclick = () => createModal(project.id)
   const projectContainer = createHTMLElement('li', [projectButton], null, null)
 
   html.projectList.appendChild(projectContainer);
@@ -240,6 +236,38 @@ function createProjectCardList() {
   projectList.forEach(element => {
     createProjectCard(element)
   });
+}
+
+function destroyModal() {
+  document.body.removeChild(document.querySelector('#project-modal'))
+}
+
+function createModal(id){
+  const project = projectList[id - 1];
+
+  const projectImage = createHTMLElement('img', null, null, null, 'project-modal-img');
+  projectImage.src = project.thumbnail_path;
+
+  const projectTitle = createHTMLElement('h1', null, project.title, null, null);
+  const projectTags = createHTMLElement('h3', null, project.tags, null, null);
+  const projectDescription = createHTMLElement('p', null, project.description, null, null)
+  
+
+  const backButton = createHTMLElement('button', null, 'Voltar', null, null);
+  backButton.onclick = destroyModal;
+  const forwardButton = createHTMLElement('a', null, 'Acessar site', null, 'project-link');
+  forwardButton.href = project.link;
+  forwardButton.target = '_blank';
+
+  const buttonsContainer = createHTMLElement('div', [backButton, forwardButton], null, null, 'modal-buttons');
+
+
+  const projectInfo = createHTMLElement('div', [projectTitle, projectTags, projectDescription, buttonsContainer], null, null, 'project-modal-info');
+
+  const modalContainer = createHTMLElement('div', [projectImage, projectInfo], null, null, 'project-modal-content');
+  const modal = createHTMLElement('section', [modalContainer], null, null, 'project-modal');
+
+  document.body.appendChild(modal)
 }
 
 window.onload = () => {
