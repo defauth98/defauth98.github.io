@@ -1,3 +1,103 @@
+const projectList = 
+[
+  {
+    id: 1,
+    title: 'Lessons Learned',
+    tags: '#fundamentos #html #css',
+    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de HTML5 e CSS3 em prática, usando semântica nos elementos e CSS para posicionar.',
+    thumbnail_path: 'images/projects-thubnails/lessons-learned.png',
+    link: 'https://defauth98.github.io/projects/lessons-learned/index.html'
+  },
+  {
+    id: 2,
+    title: 'Pixels Art',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
+    thumbnail_path: 'images/projects-thubnails/pixels-art.png',
+    link: 'https://defauth98.github.io/projects/pixels-art/index.html'
+  },
+  {
+    id: 3,
+    title: 'TodoList',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
+    thumbnail_path: 'images/projects-thubnails/todo-list.png',
+    link: 'https://defauth98.github.io/projects/todo-list/index.html'
+  },
+  {
+    id: 4,
+    title: 'Meme Generator',
+    tags: '#fundamentos #html #css #js',
+    description: 'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da CSS em prática.',
+    thumbnail_path: 'images/projects-thubnails/meme-generator.png',
+    link: 'https://defauth98.github.io/projects/meme-generator/index.html'
+  },
+  {
+    id: 5,
+    title: 'Shopping Cart',
+    tags: '#fundamentos #js #fetch',
+    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de requisições para APIs em prática.',
+    thumbnail_path: 'images/projects-thubnails/shopping-cart.png',
+    link: 'https://defauth98.github.io/projects/shopping-cart/index.html'
+  },
+  {
+    id: 6,
+    title: 'Movie Library',
+    tags: '#frontend #react',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de iniciar no desenvolvimento web usando o Framework React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-library.png',
+    link: 'https://defauth98.github.io/movie-cards-library'
+  },
+  {
+    id: 7,
+    title: 'Movie Library Statefull',
+    tags: '#frontend #react',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar formulários com React.',
+    thumbnail_path: 'images/projects-thubnails/movie-cards-library-stateful.png',
+    link: 'https://defauth98.github.io/movie-cards-library-stateful'
+  },
+  {
+    id: 8,
+    title: 'Movie Library CRUD',
+    tags: '#frontend #react',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.',
+    thumbnail_path: 'images/projects-thubnails/movie-card-crud.png',
+    link: 'https://defauth98.github.io/movie-cards-library-crud'
+  },
+  {
+    id: 9,
+    title: 'Frontend Online Store',
+    tags: '#frontend #react',
+    description: 'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos de Scrum e Kanban em prática',
+    thumbnail_path: 'images/projects-thubnails/frontend-online-store.png',
+    link: 'https://defauth98.github.io/frontend-online-store'
+  },
+  {
+    id: 10,
+    title: 'Trybewallet',
+    tags: '#frontend #react #redux',
+    description: 'Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática.',
+    thumbnail_path: 'images/projects-thubnails/trybewallet.png',
+    link: 'https://defauth98.github.io/trybewallet'
+  },
+  {
+    id: 11,
+    title: 'Trivia',
+    tags: '#frontend #react #redux',
+    description: 'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração.',
+    thumbnail_path: 'images/projects-thubnails/trivia.png',
+    link: 'https://defauth98.github.io/trivia'
+  },
+  {
+    id: 12,
+    title: 'Recipes App',
+    tags: '#frontend #react #hooks',
+    description: 'Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática.',
+    thumbnail_path: 'images/projects-thubnails/recipes-app.png',
+    link: 'https://defauth98.github.io/recipes-app'
+  },
+]
+
 const html = {
   aboutContainer: document.querySelector('#about-container'),
   aboutImg: document.querySelector('#about-img'),
@@ -14,6 +114,10 @@ const html = {
   skillAnchor: document.querySelector('#skill-anchor'),
   skillsTitle: document.querySelector('#my-skills'),
   skillsList: document.querySelector('#skills-list'),
+
+  asidebar: document.querySelector('#aside-bar'),
+  projectList: document.querySelector('#project-list'),
+  modal: document.querySelector('#project-modal')
 };
 
 function hoverImg() {
@@ -71,10 +175,116 @@ function animationOnScroll(){
     titleElement.style.animationPlayState  = 'running';
     listElement.style.animationPlayState  = 'running';
   }
+
+  if(scrollY > 1220) {
+    hideAsideBar();
+  }
+
+  if(scrollY < 1220) {
+    showAsidebar();
+  }
+ }
+
+function hideAsideBar() {
+  html.asidebar.style.display = 'none';
+}
+
+function showAsidebar() {
+  html.asidebar.style.display = 'flex';
+}
+
+function createHTMLElement (element, childs, text , className, id) {
+  const HTMLElement = document.createElement(element);
+
+  if(childs !== null && childs.length >= 1) {
+    childs.forEach(element => {
+      HTMLElement.appendChild(element)
+    })
+  }
+
+  if(text) {
+    HTMLElement.innerText = text;
+  }
+
+  if(className) {
+    HTMLElement.className = className;
+  }
+
+  if(id) {
+    HTMLElement.id = id;
+  }
+
+  return HTMLElement;
+}
+
+function createProjectCard(project) {
+  const projectImage = createHTMLElement('img', null, null, 'project-image');
+  projectImage.src = project.thumbnail_path;
+  projectImage.alt = project.title;
+
+  const projectImageContainer = createHTMLElement('div', [projectImage], null , 
+  'image-container' )
+
+
+  const projectTitle = createHTMLElement('h2', null ,project.title, null);
+  const projectTags = createHTMLElement('span', null, project.tags, null)
+  const projetcInfoContainer = createHTMLElement('div', [projectTitle, projectTags], null,
+   'project-info');
+
+  const projectButton = createHTMLElement('button', 
+    [projectImageContainer, projetcInfoContainer], null, 'project-button');
+  projectButton.type = 'button';
+  projectButton.onclick = () => createModal(project.id)
+  const projectContainer = createHTMLElement('li', [projectButton], null, null)
+
+  html.projectList.appendChild(projectContainer);
+}
+
+function createProjectCardList() {
+  projectList.forEach(element => {
+    createProjectCard(element)
+  });
+}
+
+function destroyModal() {
+  document.body.removeChild(document.querySelector('#project-modal'))
+}
+
+function createModal(id){
+  const project = projectList[id - 1];
+
+  const projectImage = createHTMLElement('img', null, null, null, 'project-modal-img');
+  projectImage.src = project.thumbnail_path;
+
+  const projectTitle = createHTMLElement('h1', null, project.title, null, null);
+  const projectTags = createHTMLElement('h3', null, project.tags, null, null);
+  const projectDescription = createHTMLElement('p', null, project.description, null, null)
+  
+
+  const backButton = createHTMLElement('button', null, 'Voltar', null, null);
+  backButton.onclick = destroyModal;
+  const forwardButton = createHTMLElement('a', null, 'Acessar site', null, 'project-link');
+  forwardButton.href = project.link;
+  forwardButton.target = '_blank';
+
+  const buttonsContainer = createHTMLElement('div', [backButton, forwardButton], null, null, 'modal-buttons');
+
+
+  const projectInfo = createHTMLElement('div', [projectTitle, projectTags, projectDescription, buttonsContainer], null, null, 'project-modal-info');
+
+  const modalContainer = createHTMLElement('div', [projectImage, projectInfo], null, null, 'project-modal-content');
+  const modal = createHTMLElement('section', [modalContainer], null, null, 'project-modal');
+
+  document.body.appendChild(modal)
 }
 
 window.onload = () => {
   hoverImg();
   animationOnClick();
-  window.onscroll = animationOnScroll
+  createProjectCardList();
+  window.onscroll = animationOnScroll;
+
+  if(window.scrollY > 1220){
+    html.asidebar.style.display = 'none';
+  }
 }
