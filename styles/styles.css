@@ -654,6 +654,10 @@ aside {
 }
 
 @media (min-width: 1300px) {
+  #section-projects header {
+    margin-top: 0.4rem;
+  }
+
   #section-projects ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -664,6 +668,11 @@ aside {
   #section-projects ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #section-projects header {
+    height: 3rem;
+    margin-bottom: 1rem;
   }
 }
 
