@@ -96,6 +96,14 @@ const projectList =
     thumbnail_path: 'images/projects-thubnails/recipes-app.png',
     link: 'https://defauth98.github.io/recipes-app'
   },
+  {
+    id: 13,
+    title: 'Starwars Planets Search',
+    tags: '#frontend #react #bootstrap',
+    description: 'Projeto que usa dos métodos do Array para fazer busca.',
+    thumbnail_path: 'images/projects-thubnails/starwars-planets-search.png',
+    link: 'https://defauth98.github.io/starwars-planets-search/'
+  },
 ]
 
 const html = {
