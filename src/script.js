@@ -104,6 +104,14 @@ const projectList =
     thumbnail_path: 'images/projects-thubnails/starwars-planets-search.png',
     link: 'https://defauth98.github.io/starwars-planets-search/'
   },
+  {
+    id: 14,
+    title: 'Proffy',
+    tags: '#frontend #backend #mobile',
+    description: 'Projeto desenvolvido durante o evento da rocketseat NLW.',
+    thumbnail_path: 'images/projects-thubnails/proffy.png',
+    link: 'https://proffy-deploy-frontend.netlify.app/'
+  }
 ]
 
 const html = {
