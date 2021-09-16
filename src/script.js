@@ -2,11 +2,11 @@ const projectList =
 [
   {
     id: 1,
-    title: 'Lessons Learned',
+    title: 'Facebook Sign In',
     tags: '#fundamentos #html #css',
-    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de HTML5 e CSS3 em prática, usando semântica nos elementos e CSS para posicionar.',
-    thumbnail_path: 'images/projects-thubnails/lessons-learned.png',
-    link: 'https://defauth98.github.io/projects/lessons-learned/index.html'
+    description: 'Projeto realizado durante o módulo de fundamentos da Trybe. Consiste na interface antiga de login do Facebook.',
+    thumbnail_path: 'images/projects-thubnails/facebook-signin.png',
+    link: 'https://defauth98.github.io./projects/facebook-signup/index.html'
   },
   {
     id: 2,
