@@ -1,9 +1,9 @@
 :root {
-  --color-background:#2F2D2E;
-  --color-gren: #99C24D;
-  --color-blue: #048BA8;
-  --color-charcoal: #2E4057;
-  --color-orange: #F18F01;
+  --color-background: #2f2d2e;
+  --color-gren: #99c24d;
+  --color-blue: #048ba8;
+  --color-charcoal: #2e4057;
+  --color-orange: #f18f01;
 }
 
 * {
@@ -14,16 +14,18 @@
 }
 
 body {
-  background-color: var(--color-background);
+  background-color: #c4c4c4;
 }
 
-h1, p {
+h1,
+p {
   font-family: Raleway, sans-serif;
   color: var(--color-charcoal);
 }
 
-ul, li {
-  font-family: 'Patrick Hand', cursive;
+ul,
+li {
+  font-family: "Patrick Hand", cursive;
 }
 
 button {
@@ -63,7 +65,7 @@ i {
   padding: 5px 20px;
 }
 
-#todo-list {  
+#todo-list {
   padding: 20px 35px;
 }
 
@@ -103,7 +105,6 @@ i {
   text-decoration: line-through;
 }
 
-
 #buttons-container {
   margin-left: -15px;
   display: flex;
@@ -124,8 +125,7 @@ i {
   background-color: var(--color-blue);
 }
 
-
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
   #main-container {
     margin-top: 150px;
   }
