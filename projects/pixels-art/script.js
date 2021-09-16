@@ -104,6 +104,14 @@ function drawPicture() {
   generateBoardButton.addEventListener('click', () => drawPixels(lineInput));
 }
 
+function setInputValue() {
+  const inputElement = document.querySelector('.board-size');
+
+  inputElement.value = 12;
+
+  drawPixels(inputElement);
+}
+
 window.onload = () => {
   const randomColor1Element = document.getElementById('random-color-1');
   randomColor1Element.style.backgroundColor = genRandomColor();
@@ -118,4 +126,5 @@ window.onload = () => {
   drawColor();
   clearButton();
   drawPicture();
+  setInputValue();
 };
