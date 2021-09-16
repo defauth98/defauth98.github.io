@@ -1,45 +1,55 @@
 :root {
-  --color-background: #333;
+  --color-gray: #333;
   --color-blue: #5ad2f4;
+  --color-dark-blue: #20677a;
   --color-dark-green: #404e4d;
-  --color-gray: #d3cdd7;
+  --color-light-gray: #d3cdd7;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--color-background);
-}
-
-#title,
-#clear-board {
-  margin-left: 50px;
-}
-
-#title {
-  color: var(--color-blue);
+  background-color: var(--color-light-gray);
   font-family: sans-serif;
-  font-weight: 400;
-}
-
-#color-palette {
-  list-style: none;
   display: flex;
-  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.color {
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-  margin: 2px;
-  cursor: pointer;
+.header {
+  background-color: var(--color-blue);
+  border-bottom: 1px solid var(--color-dark-blue);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#pixel-board {
+.header-img {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.header-title {
+  font-weight: 500;
+}
+
+.section-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 50%;
+  max-width: 900px;
+  padding: 3rem 0;
+}
+
+.pixel-board {
   list-style: none;
-  margin-left: 10px;
 }
 
 .line {
@@ -47,27 +57,44 @@ body {
 }
 
 .pixel {
-  border: 1px solid var(--color-dark-green);
-  background-color: var(--color-gray);
-  width: 40px;
-  height: 40px;
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
 }
 
-#board-size {
-  width: 50px;
+.color-palette {
+  list-style: none;
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
 }
 
-#board span {
-  margin-left: 50px;
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-#header span {
-  color: var(--color-blue);
-  font-family: 18px;
+.button {
+  padding: 0.2rem;
+  background-color: var(--color-dark-blue);
+  border: none;
+  border-radius: 0.1rem;
+  color: white;
 }
 
-#line-button {
-  margin-left: 50px;
-  margin-bottom: 20px;
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.clear-board {
+  margin-top: 1rem;
+  background-color: var(--color-blue);
+  padding: 0.5rem;
+  color: black;
+  border: 1px solid #c5c5c5;
+  border-radius: 0.3rem;
 }
