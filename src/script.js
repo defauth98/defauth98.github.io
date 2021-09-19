@@ -51,7 +51,7 @@ const projectList = [
     description:
       "Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar formulários com React.",
     thumbnail_path:
-      "images/projects-thubnails/movie-cards-library-stateful.png",
+      "images/projects-thubnails/movies-cards-library-staful.png",
     link: "https://defauth98.github.io/movie-cards-library-stateful",
   },
   {
