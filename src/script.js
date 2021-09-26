@@ -86,19 +86,19 @@ const projectList = [
     title: "Trivia",
     tags: "#frontend #react #redux",
     description:
-      "Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração.",
+      "Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração. ",
     thumbnail_path: "images/projects-thubnails/trivia.png",
     link: "https://defauth98.github.io/trivia",
   },
-  {
-    id: 11,
-    title: "Recipes App",
-    tags: "#frontend #react #hooks",
-    description:
-      "Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática.",
-    thumbnail_path: "images/projects-thubnails/recipes-app.png",
-    link: "https://defauth98.github.io/recipes-app",
-  },
+  // {
+  //   id: 11,
+  //   title: "Recipes App",
+  //   tags: "#frontend #react #hooks",
+  //   description:
+  //     "Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática. Usamos a técnica de mobile first nesse projeto",
+  //   thumbnail_path: "images/projects-thubnails/recipes-app.png",
+  //   link: "https://defauth98.github.io/recipes-app",
+  // },
   {
     id: 12,
     title: "Starwars Planets Search",
