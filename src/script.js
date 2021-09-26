@@ -1,3 +1,13 @@
+  // {
+  //   id: 11,
+  //   title: "Recipes App",
+  //   tags: "#frontend #react #hooks",
+  //   description:
+  //     "Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática. Usamos a técnica de mobile first nesse projeto",
+  //   thumbnail_path: "images/projects-thubnails/recipes-app.png",
+  //   link: "https://defauth98.github.io/recipes-app",
+  // },
+
 const projectList = [
   {
     id: 1,
@@ -90,17 +100,9 @@ const projectList = [
     thumbnail_path: "images/projects-thubnails/trivia.png",
     link: "https://defauth98.github.io/trivia",
   },
-  // {
-  //   id: 11,
-  //   title: "Recipes App",
-  //   tags: "#frontend #react #hooks",
-  //   description:
-  //     "Projeto final do módulo frontend, realizado em grupo. Com objetivo de colocar os conhecimentos de React Hooks em prática. Usamos a técnica de mobile first nesse projeto",
-  //   thumbnail_path: "images/projects-thubnails/recipes-app.png",
-  //   link: "https://defauth98.github.io/recipes-app",
-  // },
+
   {
-    id: 12,
+    id: 11,
     title: "Starwars Planets Search",
     tags: "#frontend #react #bootstrap",
     description: "Projeto que usa dos métodos do Array para fazer busca.",
@@ -108,13 +110,21 @@ const projectList = [
     link: "https://defauth98.github.io/starwars-planets-search/",
   },
   {
-    id: 13,
+    id: 12,
     title: "Proffy",
     tags: "#frontend #backend #mobile",
     description: "Projeto desenvolvido durante o evento da rocketseat NLW.",
     thumbnail_path: "images/projects-thubnails/proffy.png",
     link: "https://proffy-deploy-frontend.netlify.app/",
   },
+  {
+    id: 13,
+    title: "Calculator",
+    tags: "#frontend #react",
+    description: "Projeto desenvolvido durante o evento da rocketseat NLW.",
+    thumbnail_path: "images/projects-thubnails/calculator.png",
+    link: "https://defauth98.github.io/calculator/",
+  }
 ];
 
 const html = {
