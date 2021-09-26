@@ -121,9 +121,17 @@ const projectList = [
     id: 13,
     title: "Calculator",
     tags: "#frontend #react",
-    description: "Projeto desenvolvido durante o evento da rocketseat NLW.",
+    description: "Projeto pessoal, usando React Hooks e Styled Components. Esse foi um dos primeiros projetos que desenvolvi inicio dos estudo de ReactJS",
     thumbnail_path: "images/projects-thubnails/calculator.png",
     link: "https://defauth98.github.io/calculator/",
+  },
+  {
+    id: 14,
+    title: "Weather App",
+    tags: "#frontend #react #api",
+    description: "Projeto pessoal, usando typescript com React. Consume a API Open Weather Map. Projeto desenvolvido com o intuito de aprender mais sobre Typescript e APIs",
+    thumbnail_path: "images/projects-thubnails/weather-app.png",
+    link: "https://defauth98.github.io/weather-app/",
   }
 ];
 
