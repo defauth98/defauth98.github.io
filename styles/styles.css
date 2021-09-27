@@ -293,9 +293,15 @@ aside {
 
 #modal-buttons {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   height: 3rem;
 }
+
+.forward-buttons {
+  display: flex;
+  height: 3rem;
+}
+
 
 #project-modal-info button,
 #project-link {
@@ -320,6 +326,18 @@ aside {
 #project-modal-info button:hover {
   opacity: 0.6;
 }
+
+.github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.github-logo {
+  width: 35px;
+}
+
 
 @media (min-width: 700px) {
   aside-bar {
@@ -375,6 +393,16 @@ aside {
     margin: 0;
     padding: 0;
   }
+
+  #project-modal-content {
+    width: 80%;
+    height: 75%;
+  }
+
+  #project-modal-info p {
+    margin-bottom: 0.1rem;
+  }
+  
 }
 
 @media (min-width: 1200px) {
@@ -647,6 +675,7 @@ aside {
     height: 3rem;
     margin-bottom: 1rem;
   }
+
 }
 
 @media (min-width: 1800px) {

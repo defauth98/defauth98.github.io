@@ -315,6 +315,8 @@ function destroyModal() {
 function createModal(id) {
   const project = projectList[id - 1];
 
+  console.log(project)
+
   const projectImage = createHTMLElement(
     "img",
     null,
@@ -346,9 +348,25 @@ function createModal(id) {
   forwardButton.href = project.link;
   forwardButton.target = "_blank";
 
-  const buttonsContainer = createHTMLElement(
+  const githubIcon = createHTMLElement("img", null, null, "github-logo");
+  githubIcon.src = '../images/social-icons/github.png';
+  githubIcon.alt = 'Github Icon';
+
+  const githubButton = createHTMLElement("a",[githubIcon], null, 'github-button');
+  githubButton.href = project.repo_link;
+  githubButton.target = "_blank";
+
+  const forwardButtons = createHTMLElement(
     "div",
     [backButton, forwardButton],
+    null,
+    "forward-buttons",
+    null,
+  );
+
+  const buttonsContainer = createHTMLElement(
+    "div",
+    [githubButton ,forwardButtons],
     null,
     null,
     "modal-buttons"
