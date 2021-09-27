@@ -17,6 +17,7 @@ const projectList = [
       "Projeto realizado durante o módulo de fundamentos da Trybe. Consiste na interface antiga de login do Facebook.",
     thumbnail_path: "images/projects-thubnails/facebook-signin.png",
     link: "https://defauth98.github.io./projects/facebook-signup/index.html",
+    repo_link: "https://github.com/defauth98/defauth98.github.io/tree/main/projects/facebook-signup"
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ const projectList = [
       "Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.",
     thumbnail_path: "images/projects-thubnails/pixels-art.png",
     link: "https://defauth98.github.io/projects/pixels-art/index.html",
+    repo_link: "https://github.com/defauth98/defauth98.github.io/tree/main/projects/pixels-art"
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const projectList = [
       "Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.",
     thumbnail_path: "images/projects-thubnails/todo-list.png",
     link: "https://defauth98.github.io/projects/todo-list/index.html",
+    repo_link:"https://github.com/defauth98/defauth98.github.io/tree/main/projects/todo-list"
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ const projectList = [
       "Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de requisições para APIs em prática.",
     thumbnail_path: "images/projects-thubnails/shopping-cart.png",
     link: "https://defauth98.github.io/projects/shopping-cart/index.html",
+    repo_link: "https://github.com/defauth98/shopping-cart"
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ const projectList = [
       "Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de iniciar no desenvolvimento web usando o Framework React.",
     thumbnail_path: "images/projects-thubnails/movie-card-library.png",
     link: "https://defauth98.github.io/movie-cards-library",
+    repo_link: "https://github.com/defauth98/movie-cards-library"
   },
   {
     id: 6,
@@ -63,6 +68,7 @@ const projectList = [
     thumbnail_path:
       "images/projects-thubnails/movies-cards-library-staful.png",
     link: "https://defauth98.github.io/movie-cards-library-stateful",
+    repo_link: "https://github.com/defauth98/movie-cards-library-stateful"
   },
   {
     id: 7,
@@ -72,6 +78,7 @@ const projectList = [
       "Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de usar o ciclo de vida do React.",
     thumbnail_path: "images/projects-thubnails/movie-card-crud.png",
     link: "https://defauth98.github.io/movie-cards-library-crud",
+    repo_link: "https://github.com/defauth98/movie-cards-library-crud"
   },
   {
     id: 8,
@@ -81,6 +88,7 @@ const projectList = [
       "Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos de Scrum e Kanban em prática",
     thumbnail_path: "images/projects-thubnails/frontend-online-store.png",
     link: "https://defauth98.github.io/frontend-online-store",
+    repo_link: "https://github.com/defauth98/frontend-online-store"
   },
   {
     id: 9,
@@ -90,6 +98,7 @@ const projectList = [
       "Projeto realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática.",
     thumbnail_path: "images/projects-thubnails/trybewallet.png",
     link: "https://defauth98.github.io/trybewallet",
+    repo_link: "https://github.com/defauth98/trybewallet"
   },
   {
     id: 10,
@@ -99,6 +108,7 @@ const projectList = [
       "Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração. ",
     thumbnail_path: "images/projects-thubnails/trivia.png",
     link: "https://defauth98.github.io/trivia",
+    repo_link:"https://github.com/defauth98/trivia"
   },
 
   {
@@ -108,6 +118,7 @@ const projectList = [
     description: "Projeto que usa dos métodos do Array para fazer busca.",
     thumbnail_path: "images/projects-thubnails/starwars-planets-search.png",
     link: "https://defauth98.github.io/starwars-planets-search/",
+    repo_link:"https://github.com/defauth98/starwars-planets-search"
   },
   {
     id: 12,
@@ -116,6 +127,7 @@ const projectList = [
     description: "Projeto desenvolvido durante o evento da rocketseat NLW.",
     thumbnail_path: "images/projects-thubnails/proffy.png",
     link: "https://proffy-deploy-frontend.netlify.app/",
+    repo_link: "https://github.com/defauth98/proffy"
   },
   {
     id: 13,
@@ -124,6 +136,7 @@ const projectList = [
     description: "Projeto pessoal, usando React Hooks e Styled Components. Esse foi um dos primeiros projetos que desenvolvi inicio dos estudo de ReactJS",
     thumbnail_path: "images/projects-thubnails/calculator.png",
     link: "https://defauth98.github.io/calculator/",
+    repo_link: "https://github.com/defauth98/calculator"
   },
   {
     id: 14,
@@ -132,6 +145,7 @@ const projectList = [
     description: "Projeto pessoal, usando typescript com React. Consume a API Open Weather Map. Projeto desenvolvido com o intuito de aprender mais sobre Typescript e APIs",
     thumbnail_path: "images/projects-thubnails/weather-app.png",
     link: "https://defauth98.github.io/weather-app/",
+    repo_link: "https://github.com/defauth98/weather-app"
   }
 ];
 
