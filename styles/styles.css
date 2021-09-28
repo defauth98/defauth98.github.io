@@ -683,11 +683,23 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+
+  #project-modal-content {
+    width: 50%;
+    height: 70%;
+  }
+    
+}
+
+@media (min-height: 800px) {
+  #project-modal-info p {
+    min-height: 55px;
+  }
 }
 
 @media (min-height: 900px) {
   #project-modal-info p {
-    min-height: 75px;
+    min-height: 40px;
     font-size: 1.3rem;
   }
   #project-modal-info h3 {
