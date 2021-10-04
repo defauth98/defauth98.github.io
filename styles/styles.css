@@ -302,7 +302,6 @@ aside {
   height: 3rem;
 }
 
-
 #project-modal-info button,
 #project-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -337,7 +336,6 @@ aside {
 .github-logo {
   width: 35px;
 }
-
 
 @media (min-width: 700px) {
   aside-bar {
@@ -402,7 +400,6 @@ aside {
   #project-modal-info p {
     margin-bottom: 0.1rem;
   }
-  
 }
 
 @media (min-width: 1200px) {
@@ -675,7 +672,6 @@ aside {
     height: 3rem;
     margin-bottom: 1rem;
   }
-
 }
 
 @media (min-width: 1800px) {
@@ -688,7 +684,6 @@ aside {
     width: 50%;
     height: 70%;
   }
-    
 }
 
 @media (min-height: 800px) {
@@ -705,5 +700,33 @@ aside {
   #project-modal-info h3 {
     color: gray;
     display: block;
+  }
+}
+
+@media (max-height: 700px) {
+  #social-icons {
+    display: none;
+  }
+
+  #section-skills ul li {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  #me-photo {
+    width: 10rem;
+    border-radius: 100%;
+  }
+
+  #project-modal-content {
+    width: 70%;
+    height: 85%;
+    overflow: hidden;
+  }
+}
+
+@media (max-height: 600px) {
+  #section-projects ul li {
+    border: red;
   }
 }
