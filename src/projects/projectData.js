@@ -109,6 +109,15 @@ const data = [
     link: 'https://defauth98.github.io/weather-app/',
     repo_link: 'https://github.com/defauth98/weather-app',
   },
+  {
+    title: 'Web Chat',
+    tags: '#frontend #backend #mvc',
+    description:
+      'Projeto realizado durante o modulo de backend da Trybe. Consiste em um chat usando a arquitetura MVC com web sockets.',
+    thumbnail_path: 'images/projects-thubnails/web-chat.png',
+    link: 'https://defauth98-web-chat.herokuapp.com/',
+    repo_link: 'https://github.com/defauth98/web-chat',
+  },
 ];
 
 const projectList = data.map((project, index) => ({
