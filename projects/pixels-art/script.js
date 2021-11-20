@@ -7,26 +7,26 @@ function genRandomColor() {
 }
 
 function selectColor() {
-  const listItemElements = document.getElementsByClassName("color");
+  const listItemElements = document.getElementsByClassName('color');
 
   for (let index = 0; index < listItemElements.length; index += 1) {
-    listItemElements[index].addEventListener("click", () => {
+    listItemElements[index].addEventListener('click', () => {
       for (
         let insideIndex = 0;
         insideIndex < listItemElements.length;
         insideIndex += 1
       ) {
-        listItemElements[insideIndex].classList.remove("selected");
+        listItemElements[insideIndex].classList.remove('selected');
       }
 
-      listItemElements[index].classList.add("selected");
+      listItemElements[index].classList.add('selected');
     });
   }
 }
 
 function setBackground(element) {
   const pixelElement = element;
-  const selectElement = document.getElementsByClassName("selected")[0];
+  const selectElement = document.getElementsByClassName('selected')[0];
 
   pixelElement.style.backgroundColor = selectElement.style.backgroundColor;
 
@@ -34,7 +34,7 @@ function setBackground(element) {
 }
 
 function drawColor() {
-  const pixelsListElements = document.getElementsByClassName("pixel");
+  const pixelsListElements = document.getElementsByClassName('pixel');
 
   for (
     let elementIndex = 0;
@@ -42,25 +42,25 @@ function drawColor() {
     elementIndex += 1
   ) {
     const pixelElement = pixelsListElements[elementIndex];
-    pixelElement.addEventListener("click", () => setBackground(pixelElement));
+    pixelElement.addEventListener('click', () => setBackground(pixelElement));
   }
 }
 
 function clearButton() {
-  const buttonElement = document.getElementById("clear-board");
-  const pixelBoardItems = document.getElementsByClassName("pixel");
+  const buttonElement = document.getElementById('clear-board');
+  const pixelBoardItems = document.getElementsByClassName('pixel');
 
-  buttonElement.addEventListener("click", () => {
+  buttonElement.addEventListener('click', () => {
     for (let index = 0; index < pixelBoardItems.length; index += 1) {
-      pixelBoardItems[index].style.backgroundColor = "white";
+      pixelBoardItems[index].style.backgroundColor = 'white';
     }
   });
 }
 
 function createPixel() {
-  const pixelElement = document.createElement("li");
-  pixelElement.className = "pixel";
-  pixelElement.addEventListener("click", () => setBackground(pixelElement));
+  const pixelElement = document.createElement('li');
+  pixelElement.className = 'pixel';
+  pixelElement.addEventListener('click', () => setBackground(pixelElement));
 
   return pixelElement;
 }
@@ -68,7 +68,7 @@ function createPixel() {
 function verifyInputNumber(inputValue) {
   let value = inputValue;
 
-  if (value > 50) {
+  if (value > 12) {
     value = 50;
   } else if (value < 5) {
     value = 5;
@@ -80,15 +80,15 @@ function verifyInputNumber(inputValue) {
 function drawPixels(input) {
   const lineInput = input;
   if (!lineInput.value) {
-    alert("Board inválido!");
+    alert('Board inválido!');
     return;
   }
   const lineInputValue = verifyInputNumber(lineInput.value);
-  const pixelBoardElement = document.getElementById("pixel-board");
-  pixelBoardElement.innerHTML = "";
+  const pixelBoardElement = document.getElementById('pixel-board');
+  pixelBoardElement.innerHTML = '';
   for (let index = 0; index < lineInputValue; index += 1) {
-    const lineContainer = document.createElement("div");
-    lineContainer.className = "line";
+    const lineContainer = document.createElement('div');
+    lineContainer.className = 'line';
     for (let pixels = 0; pixels < lineInputValue; pixels += 1) {
       const pixelElement = createPixel();
       lineContainer.appendChild(pixelElement);
@@ -98,29 +98,29 @@ function drawPixels(input) {
 }
 
 function drawPicture() {
-  const generateBoardButton = document.getElementById("generate-board");
-  const lineInput = document.getElementById("board-size");
+  const generateBoardButton = document.getElementById('generate-board');
+  const lineInput = document.getElementById('board-size');
 
-  generateBoardButton.addEventListener("click", () => drawPixels(lineInput));
+  generateBoardButton.addEventListener('click', () => drawPixels(lineInput));
 }
 
 function setInputValue() {
-  const inputElement = document.querySelector(".board-size");
+  const inputElement = document.querySelector('.board-size');
 
-  inputElement.value = 12;
+  inputElement.value = 8;
 
   drawPixels(inputElement);
 }
 
 window.onload = () => {
-  const randomColor1Element = document.getElementById("random-color-1");
+  const randomColor1Element = document.getElementById('random-color-1');
   randomColor1Element.style.backgroundColor = genRandomColor();
-  const randomColor2Element = document.getElementById("random-color-2");
+  const randomColor2Element = document.getElementById('random-color-2');
   randomColor2Element.style.backgroundColor = genRandomColor();
-  const randomColor3Element = document.getElementById("random-color-3");
+  const randomColor3Element = document.getElementById('random-color-3');
   randomColor3Element.style.backgroundColor = genRandomColor();
-  const blackBackgroundElement = document.getElementById("background-black");
-  blackBackgroundElement.style.backgroundColor = "rgb(0,0,0)";
+  const blackBackgroundElement = document.getElementById('background-black');
+  blackBackgroundElement.style.backgroundColor = 'rgb(0,0,0)';
 
   selectColor();
   drawColor();
