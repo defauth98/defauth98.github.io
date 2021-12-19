@@ -1,54 +1,41 @@
+<h1 align="center">Meu Portifólio</h1>
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/defauth8" target="_blank">
   </a>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+**Descrição**
 
-1.  **Create a Gatsby site.**
+Aplicação web para armazenar meus projetos pessoais
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### :nut_and_bolt: Tecnologias
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Esse projeto foi desenvolvido com a seguinte tecnologias:
 
-2.  **Start developing.**
+- [HTML5][html]
+- [CSS][css]
+- [Javascript][js]
 
-    Navigate into your new site’s directory and start it up.
+[html]: https://html.spec.whatwg.org/multipage/
+[css]: https://www.w3.org/Style/CSS/Overview.en.html
+[js]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+#### :thinking: Como rodar
 
-3.  **Open the code and start customizing!**
+```bash
+# Clone o repositório
+git clone https://github.com/defauth98/defauth98.github.io.git
 
-    Your site is now running at http://localhost:8000!
+# Entre no diretório
+cd defauth98.github.io
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+# Abra o arquivo index.html no seu browser ou use a extenção live server do VS Code.
+```
 
-4.  **Learn more**
+#### Autor
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+👤 **Daniel Ribeiro**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- Github: [@defauth8](https://github.com/defauth98)
+- LinkedIn: [@daniel-ribeiro-397604164](https://linkedin.com/in/daniel-ribeiro-397604164)
