@@ -1,11 +1,13 @@
+import { Container } from '@chakra-ui/react';
 import * as React from 'react';
+import AboutMe from '../features/aboutme/AboutMe';
 
-const IndexPage = () => {
+function MainPage() {
   return (
-    <main>
-      <h1>Hello world</h1>
-    </main>
+    <Container maxW="container.4xl" bg="black.800">
+      <AboutMe />
+    </Container>
   );
-};
+}
 
-export default IndexPage;
+export default MainPage;

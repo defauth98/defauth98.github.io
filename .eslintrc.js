@@ -43,6 +43,7 @@ module.exports = {
         aspects: ['noHref', 'invalidHref', 'preferButton'],
       },
     ],
+    'import/prefer-default-export': 'off',
   },
   settings: {
     'import/core-modules': ['react'],

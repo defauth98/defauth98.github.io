@@ -10,6 +10,14 @@ var plugins = [{
       name: 'gatsby-plugin-mdx',
       plugin: require('/home/defauth/code/github/defauth98.github.io/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/home/defauth/code/github/defauth98.github.io","commonmark":false},
+    },{
+      name: '@chakra-ui/gatsby-plugin',
+      plugin: require('/home/defauth/code/github/defauth98.github.io/node_modules/@chakra-ui/gatsby-plugin/gatsby-ssr'),
+      options: {"plugins":[],"resetCSS":true,"isUsingColorMode":false},
+    },{
+      name: 'default-site-plugin',
+      plugin: require('/home/defauth/code/github/defauth98.github.io/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

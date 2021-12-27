@@ -42,6 +42,7 @@ __diff_output__/
 .cache/
 .netlify
 .Rhistory
+.cache/**
 
 # IDE specific
 .idea/
