@@ -1,12 +1,14 @@
-import { Container } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import * as React from 'react';
 import AboutMe from '../features/aboutme/AboutMe';
+import MySkills from '../features/myskills/MySkills';
 
 function MainPage() {
   return (
-    <Container maxW="container.4xl" bg="black.800">
+    <Box>
       <AboutMe />
-    </Container>
+      <MySkills />
+    </Box>
   );
 }
 

@@ -9,7 +9,13 @@ import GmailLogo from '../../images/social-icons/gmail.png';
 
 function AboutMe() {
   return (
-    <Container as="main" bg="black.800" minHeight="100vh" paddingTop={{ base: '7rem', md: '10rem' }}>
+    <Container
+      as="section"
+      bg="black.800"
+      minHeight="100vh"
+      paddingTop={{ base: '7rem', md: '10rem' }}
+      maxW="container.4xl"
+    >
       <Image
         src={DanielPhoto}
         borderRadius="50%"
