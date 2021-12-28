@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 import { Container, SimpleGrid, Heading, Box } from '@chakra-ui/react';
-import { ProjectItem } from './Projectitem';
 
+import { ProjectItem } from './Projectitem';
 import Project from './projectData';
 
 function ProjectList() {

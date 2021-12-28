@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Container, SimpleGrid, Box, Image, Text, Heading } from '@chakra-ui/react';
+import { Container, SimpleGrid, Heading } from '@chakra-ui/react';
 
 import JavascriptIcon from '../../images/devicons/javascript-original.svg';
 import TypescriptIcon from '../../images/devicons/typescript-original.svg';
@@ -14,6 +14,7 @@ import HerokuIcon from '../../images/devicons/heroku-original.svg';
 import DockerIcon from '../../images/devicons/docker-original.svg';
 import ReduxIcon from '../../images/devicons/redux-original.svg';
 import PythonIcon from '../../images/devicons/python-original.svg';
+import SkillItem from './SkilItem';
 
 function AboutMe() {
   return (
@@ -39,78 +40,33 @@ function AboutMe() {
           margin="0 auto"
           paddingBottom="1rem"
         >
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={JavascriptIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Javascript
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={TypescriptIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Typescript
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={HtmlIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              HTML
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={CssIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              CSS
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={ReactIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              React
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={NodeIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              NodeJS
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={LinuxIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Linux
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={GitIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Git
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={HerokuIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Heroku
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={DockerIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Docker
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={ReduxIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Redux
-            </Text>
-          </Box>
-          <Box width={{ base: '6rem', md: '8rem' }}>
-            <Image src={PythonIcon} />
-            <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
-              Python
-            </Text>
-          </Box>
+          <SkillItem
+            icon={JavascriptIcon}
+            text="Javascript"
+            link="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+          />
+
+          <SkillItem icon={TypescriptIcon} text="Typescript" link="https://www.typescriptlang.org/" />
+
+          <SkillItem icon={HtmlIcon} text="HTML" link="https://developer.mozilla.org/pt-BR/docs/Web/HTML" />
+
+          <SkillItem icon={CssIcon} text="CSS" link="https://developer.mozilla.org/pt-BR/docs/Web/CSS" />
+
+          <SkillItem icon={ReactIcon} text="React" link="https://pt-br.reactjs.org/" />
+
+          <SkillItem icon={NodeIcon} text="NodeJS" link="https://nodejs.org/en/" />
+
+          <SkillItem icon={LinuxIcon} text="Linux" link="https://www.linux.org/pages/download/" />
+
+          <SkillItem icon={GitIcon} text="Git" link="https://git-scm.com/" />
+
+          <SkillItem icon={HerokuIcon} text="Heroku" link="https://www.heroku.com/" />
+
+          <SkillItem icon={DockerIcon} text="Docker" link="https://www.docker.com/" />
+
+          <SkillItem icon={ReduxIcon} text="Redux" link="https://redux.js.org/" />
+
+          <SkillItem icon={PythonIcon} text="Python" link="https://www.python.org/" />
         </SimpleGrid>
       </Container>
     </Container>
