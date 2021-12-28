@@ -18,11 +18,16 @@ function ProjectList() {
       alignItems="center"
     >
       <Box width="100%" maxW="container.xl">
-        <Heading color="white" textAlign="left" marginBottom="2rem">
+        <Heading
+          color="white"
+          textAlign={{ base: 'left', sm: 'center' }}
+          marginBottom="2rem"
+          marginTop={{ base: '0', sm: '2rem' }}
+        >
           Meus projetos
         </Heading>
       </Box>
-      <SimpleGrid columns={{ base: 1, md: 3, lg: 5 }} gap="2rem" maxW="container.xl" paddingBottom="1rem">
+      <SimpleGrid columns={{ base: 1, md: 3, lg: 5 }} gap="2rem" maxW="container.xl" paddingBottom="5rem">
         {Project.map((project) => (
           <ProjectItem project={project} />
         ))}
