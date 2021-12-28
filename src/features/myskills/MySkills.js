@@ -45,27 +45,16 @@ function AboutMe() {
             text="Javascript"
             link="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
           />
-
           <SkillItem icon={TypescriptIcon} text="Typescript" link="https://www.typescriptlang.org/" />
-
           <SkillItem icon={HtmlIcon} text="HTML" link="https://developer.mozilla.org/pt-BR/docs/Web/HTML" />
-
           <SkillItem icon={CssIcon} text="CSS" link="https://developer.mozilla.org/pt-BR/docs/Web/CSS" />
-
           <SkillItem icon={ReactIcon} text="React" link="https://pt-br.reactjs.org/" />
-
           <SkillItem icon={NodeIcon} text="NodeJS" link="https://nodejs.org/en/" />
-
           <SkillItem icon={LinuxIcon} text="Linux" link="https://www.linux.org/pages/download/" />
-
           <SkillItem icon={GitIcon} text="Git" link="https://git-scm.com/" />
-
           <SkillItem icon={HerokuIcon} text="Heroku" link="https://www.heroku.com/" />
-
           <SkillItem icon={DockerIcon} text="Docker" link="https://www.docker.com/" />
-
           <SkillItem icon={ReduxIcon} text="Redux" link="https://redux.js.org/" />
-
           <SkillItem icon={PythonIcon} text="Python" link="https://www.python.org/" />
         </SimpleGrid>
       </Container>

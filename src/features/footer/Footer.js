@@ -30,7 +30,7 @@ export default function Footer() {
           Feito com ❤️ por Daniel Ribeiro
         </Heading>
 
-        <Box display={{ base: 'flex', sm: 'none' }} justifyContent="space-between" gap="3rem">
+        <Box display={{ base: 'flex', sm: 'none', md: 'flex' }} justifyContent="space-between" gap="3rem">
           <Link href="https://github.com/defauth98" isExternal>
             <Image src={GithubLogo} width="2rem" />
           </Link>
