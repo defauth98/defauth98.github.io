@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: 'defauth98.github.io',
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://defauth.github.io',
     title: 'defauth.github.io',
   },
   plugins: [
@@ -14,7 +14,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: './src/images/',
+        path: `${__dirname}/src/images/`,
       },
       __key: 'images',
     },
@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: './src/pages/',
+        path: `${__dirname}/src/pages/`,
       },
       __key: 'pages',
     },
