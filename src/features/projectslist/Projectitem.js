@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { Box, Heading, Image } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
 
 import JavascriptLogo from '../../images/devicons/javascript-original.svg';
 import TypescriptLogo from '../../images/devicons/typescript-original.svg';
@@ -9,17 +10,23 @@ import NodeLogo from '../../images/devicons/nodejs-original.svg';
 import HtmlLogo from '../../images/devicons/html5-original.svg';
 import CssLogo from '../../images/devicons/css3-original.svg';
 
+const MotionBox = motion(Box);
+
 export function ProjectItem({ project }) {
   const { title, thumbnail_path: thumb, tags } = project;
 
   return (
-    <Box
+    <MotionBox
       width={{ base: '15rem' }}
       height={{ base: '13rem' }}
       borderRadius={{ base: '0.8rem' }}
       overflow={{ base: 'hidden' }}
       background="black"
       border="4px solid #ccc"
+      drag="x"
+      dragConstraints={{ left: -100, right: 100 }}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
     >
       <Image src={thumb} alt={title} placeholder="blurred" width={{ base: '15rem' }} height={{ base: '10rem' }} />
       <Box
@@ -95,6 +102,6 @@ export function ProjectItem({ project }) {
           )}
         </Box>
       </Box>
-    </Box>
+    </MotionBox>
   );
 }
