@@ -20,7 +20,7 @@ function ProjectList() {
       <Box width="100%" maxW="container.xl">
         <Heading
           color="white"
-          textAlign={{ base: 'left', sm: 'center' }}
+          textAlign={{ base: 'left', sm: 'center', md: 'left' }}
           marginBottom="2rem"
           marginTop={{ base: '0', sm: '2rem' }}
         >

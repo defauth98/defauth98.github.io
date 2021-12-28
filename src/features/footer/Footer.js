@@ -26,7 +26,7 @@ export default function Footer() {
         height="8rem"
         borderTop="2px solid #ccc"
       >
-        <Heading color="white" fontSize={{ base: '1rem' }}>
+        <Heading color="white" fontSize={{ base: '1rem' }} fontWeight="medium">
           Feito com ❤️ por Daniel Ribeiro
         </Heading>
 
