@@ -1,13 +1,16 @@
 import * as React from 'react';
 
-import { Box, Heading, Image } from '@chakra-ui/react';
+import { Box, Heading, Image, useDisclosure } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import TagList from './TagList';
+import ProjectModal from './ProjectModal';
 
 const MotionBox = motion(Box);
 
 export function ProjectItem({ project }) {
-  const { title, thumbnail_path: thumb, tags } = project;
+  const { title, thumbnailPath, tags } = project;
+
+  const { isOpen, onClose, onOpen } = useDisclosure();
 
   return (
     <MotionBox
@@ -21,8 +24,15 @@ export function ProjectItem({ project }) {
       dragConstraints={{ left: -100, right: 100 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
+      onClick={onOpen}
     >
-      <Image src={thumb} alt={title} placeholder="blurred" width={{ base: '15rem' }} height={{ base: '10rem' }} />
+      <Image
+        src={thumbnailPath}
+        alt={title}
+        placeholder="blurred"
+        width={{ base: '15rem' }}
+        height={{ base: '10rem' }}
+      />
       <Box
         display="flex"
         justifyContent="space-between"
@@ -35,6 +45,8 @@ export function ProjectItem({ project }) {
         </Heading>
 
         <TagList tags={tags} />
+
+        <ProjectModal onClose={onClose} isOpen={isOpen} project={project} />
       </Box>
     </MotionBox>
   );
