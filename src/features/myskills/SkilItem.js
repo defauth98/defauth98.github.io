@@ -8,12 +8,12 @@ const MotionBox = motion(Box);
 function SkillItem({ icon, text, link }) {
   return (
     <MotionBox width={{ base: '6rem', md: '8rem' }} whileTap={{ scale: 0.9 }}>
-      <Link href={link} target="_blank">
-        <Image src={icon} />
-        <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
+      <Image src={icon} />
+      <Text fontSize={{ base: '0.9rem', md: '1.2rem' }} textAlign="center">
+        <Link href={link} target="_blank">
           {text}
-        </Text>
-      </Link>
+        </Link>
+      </Text>
     </MotionBox>
   );
 }
