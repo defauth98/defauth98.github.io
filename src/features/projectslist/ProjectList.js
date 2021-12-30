@@ -29,7 +29,7 @@ function ProjectList() {
       </Box>
       <SimpleGrid columns={{ base: 1, md: 3, lg: 5 }} gap="2rem" maxW="container.xl" paddingBottom="5rem">
         {Project.map((project) => (
-          <ProjectItem project={project} />
+          <ProjectItem project={project} key={project.id} />
         ))}
       </SimpleGrid>
     </Container>

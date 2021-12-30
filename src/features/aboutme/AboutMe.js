@@ -2,10 +2,13 @@ import * as React from 'react';
 
 import { Container, Heading, Box, Text, Image, Link } from '@chakra-ui/react';
 
+import { motion } from 'framer-motion';
 import DanielPhoto from '../../images/daniel_ribeiro.jpg';
 import GithubLogo from '../../images/social-icons/github.png';
 import LinkedinLogo from '../../images/social-icons/linkedin.png';
 import GmailLogo from '../../images/social-icons/gmail.png';
+
+const MotionLink = motion(Link);
 
 function AboutMe() {
   return (
@@ -52,17 +55,32 @@ function AboutMe() {
         margin="0 auto"
         marginTop="1.5rem"
       >
-        <Link href="https://github.com/defauth98" isExternal>
+        <MotionLink
+          href="https://github.com/defauth98"
+          isExternal
+          whileHover={{ rotate: 360, scale: 1.5 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <Image src={GithubLogo} width="2rem" />
-        </Link>
+        </MotionLink>
 
-        <Link href="https://www.linkedin.com/in/daniel-ribeiro-vassao/" isExternal>
+        <MotionLink
+          href="https://www.linkedin.com/in/daniel-ribeiro-vassao/"
+          isExternal
+          whileHover={{ rotate: 360, scale: 1.5 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <Image src={LinkedinLogo} width="2rem" />
-        </Link>
+        </MotionLink>
 
-        <Link href="mailto:neto.daniribeiro@gmail.com" isExternal>
+        <MotionLink
+          href="mailto:neto.daniribeiro@gmail.com"
+          isExternal
+          whileHover={{ rotate: 360, scale: 1.5 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <Image src={GmailLogo} width="2rem" />
-        </Link>
+        </MotionLink>
       </Box>
     </Container>
   );
