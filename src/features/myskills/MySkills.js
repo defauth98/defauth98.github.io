@@ -21,12 +21,11 @@ function AboutMe() {
     <Container
       as="section"
       bg="white.200"
-      minHeight="100vh"
       maxW="container.4xl"
       display="flex"
       justifyContent="center"
-      marginTop={{ base: '2rem' }}
-      alignItems={{ sm: 'center' }}
+      alignItems={{ sm: 'center', md: 'center' }}
+      minHeight="100vh"
     >
       <Container maxW="container.xl">
         <Heading fontSize={{ base: '1.5em' }} fontWeight="semibold" marginBottom={{ base: '2rem' }}>
@@ -34,8 +33,8 @@ function AboutMe() {
         </Heading>
 
         <SimpleGrid
-          columns={{ base: 2, md: 3, lg: 6 }}
-          spacing={10}
+          columns={{ base: 3, md: 3, lg: 6 }}
+          spacing={{ sm: 5, lg: 20 }}
           maxW="container.xl"
           margin="0 auto"
           paddingBottom="1rem"
