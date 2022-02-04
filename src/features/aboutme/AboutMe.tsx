@@ -16,7 +16,8 @@ function AboutMe() {
       as="section"
       bg="black.800"
       minHeight="100vh"
-      paddingTop={{ base: '7rem', md: '10rem' }}
+      maxWidth="100vw"
+      paddingTop={{ base: '7rem', md: '10rem', lg: '6rem', xl: '10rem' }}
       maxW="container.4xl"
     >
       <Image

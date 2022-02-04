@@ -21,7 +21,6 @@ function AboutMe() {
     <Container
       as="section"
       bg="white.200"
-      maxW="container.4xl"
       display="flex"
       justifyContent="center"
       alignItems={{ sm: 'center', md: 'center' }}
@@ -33,7 +32,7 @@ function AboutMe() {
         </Heading>
 
         <SimpleGrid
-          columns={{ base: 3, md: 3, lg: 6 }}
+          columns={{ base: 2, md: 3, lg: 6 }}
           spacing={{ sm: 5, lg: 20 }}
           maxW="container.xl"
           margin="0 auto"

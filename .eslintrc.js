@@ -45,6 +45,8 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
   },
   settings: {
     'import/core-modules': ['react'],
