@@ -20,14 +20,20 @@ function ProjectList() {
       <Box width="100%" maxW="container.xl">
         <Heading
           color="white"
-          textAlign={{ base: 'left', sm: 'center', md: 'left' }}
+          textAlign={{ base: 'left', sm: 'center', md: 'center' }}
           marginBottom="2rem"
           marginTop={{ base: '0', sm: '2rem' }}
+          fontWeight={{ base: 'regular' }}
         >
           Meus projetos
         </Heading>
       </Box>
-      <SimpleGrid columns={{ base: 1, md: 3, lg: 5 }} gap="2rem" maxW="container.xl" paddingBottom="5rem">
+      <SimpleGrid
+        columns={{ base: 1, md: 2, lg: 3, '2xl': 4 }}
+        gap={{ base: '2rem', md: '4rem' }}
+        maxW="container.xl"
+        paddingBottom="5rem"
+      >
         {Project.map((project) => (
           <ProjectItem project={project} key={project.id} />
         ))}
