@@ -34,7 +34,8 @@ function AboutMe() {
           fontWeight="semibold"
           marginBottom={{ base: '2rem', md: '4rem' }}
           paddingTop={{ base: '0', sm: '4rem', '2xl': '0' }}
-          textAlign={{ sm: 'center' }}
+          textAlign={{ sm: 'center', '2xl': 'left' }}
+          paddingLeft={{ '2xl': '4.5rem' }}
         >
           Tecnologias e ferramentas que conheço
         </Heading>

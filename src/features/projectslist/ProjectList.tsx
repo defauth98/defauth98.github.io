@@ -21,9 +21,10 @@ function ProjectList() {
       <Box width="100%" maxW="container.xl">
         <Heading
           color="white"
-          textAlign={{ base: 'left', sm: 'center', md: 'center' }}
+          textAlign={{ base: 'left', sm: 'center', md: 'center', '2xl': 'left' }}
+          paddingLeft={{ '2xl': '4.5rem' }}
           marginBottom="2rem"
-          marginTop={{ base: '0', sm: '2rem' }}
+          marginTop={{ base: '0', sm: '2rem', '2xl': '5rem' }}
           fontWeight={{ base: 'regular' }}
         >
           Meus projetos
