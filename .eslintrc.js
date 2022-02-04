@@ -1,9 +1,10 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    node: true,
   },
   extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -11,44 +12,13 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        printWidth: 120,
-        trailingComma: 'es5',
-      },
-    ],
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.ts', '.tsx'],
-      },
-    ],
-    'react/prop-types': 0,
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'local',
-        args: 'none',
-      },
-    ],
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['to', 'hrefLeft', 'hrefRight'],
-        aspects: ['noHref', 'invalidHref', 'preferButton'],
-      },
-    ],
+    'no-use-before-define': 'off',
+    'react/jsx-filename-extension': 'off',
     'import/prefer-default-export': 'off',
-    'react/jsx-props-no-spreading': 'off',
-    'import/extensions': 'off',
+    'jsx-quotes': ['error', 'prefer-single'],
     'import/no-unresolved': 'off',
-  },
-  settings: {
-    'import/core-modules': ['react'],
+    'import/extensions': 'off',
   },
 };

@@ -9,16 +9,26 @@ import {
   ModalFooter,
   Link,
   Image,
+  Box,
+  Text
 } from '@chakra-ui/react';
 import * as React from 'react';
+import { FiExternalLink } from 'react-icons/fi';
 
 import GithubLogo from '../../images/social-icons/github-original.svg';
+import ProjectType from '../../types/project'
 
-function ProjectModal({ isOpen, onClose, project: { title, repoLink, thumbnailPath } }) {
+interface projectModelProps {
+  isOpen: boolean;
+  onClose: () => void,
+  project: ProjectType
+}
+
+function ProjectModal({ isOpen, onClose, project: { title, repoLink, thumbnailPath, link } }: projectModelProps) {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} motionPreset="slideInBottom" isCentered border="3px solid #ccc">
+    <Modal isOpen={isOpen} onClose={onClose} motionPreset="slideInBottom" isCentered >
       <ModalOverlay />
-      <ModalContent maxW="container.xl" height="800px">
+      <ModalContent maxW={{'2xl': "container.md", '3xl': "container.xl"}} height={{'2xl': "600px", '3xl': "800px"}}>
         <ModalHeader>{title}</ModalHeader>
         <ModalCloseButton />
         <ModalBody display="flex" justifyContent="center" alignItems="center">
@@ -26,10 +36,18 @@ function ProjectModal({ isOpen, onClose, project: { title, repoLink, thumbnailPa
         </ModalBody>
 
         <ModalFooter display="flex" justifyContent="space-between" alignItems="center" borderTop="2px solid #ccc">
-          <Link href={repoLink} isExternal display="flex" alignItems="center">
-            <Image src={GithubLogo} width="2rem" marginRight="1rem" />
-            Ver no Github
-          </Link>
+          <Box display="flex" alignItems="center" justifyContent="center" height='2rem'>
+            <Link href={link} isExternal display="flex" alignItems="center" justifyContent="center" marginRight="2rem">
+              <FiExternalLink size={30}  />
+              <Text marginLeft="0.5rem">Acessar o site</Text>
+            </Link>
+
+            <Link href={repoLink} isExternal display="flex" alignItems="center" justifyContent="center">
+              <Image src={GithubLogo} width="2rem" />
+              <Text marginLeft="0.5rem">Ver no Github</Text>
+            </Link>
+          </Box>
+
           <Button colorScheme="blue" mr={3} onClick={onClose}>
             Close
           </Button>

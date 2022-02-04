@@ -4,10 +4,15 @@ import { Box, Heading, Image, useDisclosure } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import TagList from './TagList';
 import ProjectModal from './ProjectModal';
+import ProjectType from '../../types/project';
 
 const MotionBox = motion(Box);
 
-export function ProjectItem({ project }) {
+interface ProjectItemProps {
+  project: ProjectType
+}
+
+export function ProjectItem({ project }:  ProjectItemProps) {
   const { title, thumbnailPath, tags } = project;
 
   const { isOpen, onClose, onOpen } = useDisclosure();
