@@ -27,7 +27,6 @@ export default function Footer() {
         justifyContent="space-between"
         padding="0 4rem"
         height="8rem"
-        borderTop="2px solid #ccc"
       >
         <Heading color="white" fontSize={{ base: '1rem' }} fontWeight="medium">
           Feito com ❤️ por Daniel Ribeiro
