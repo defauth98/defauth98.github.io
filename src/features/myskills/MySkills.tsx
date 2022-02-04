@@ -26,6 +26,7 @@ function AboutMe() {
       alignItems={{ sm: 'center', md: 'center' }}
       minHeight="100vh"
       maxW="container.4xl"
+      className="my-skills"
     >
       <Container maxW="container.xl">
         <Heading

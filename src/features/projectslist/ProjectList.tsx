@@ -16,6 +16,7 @@ function ProjectList() {
       flexDir="column"
       justifyContent="center"
       alignItems="center"
+      className="my-projects"
     >
       <Box width="100%" maxW="container.xl">
         <Heading

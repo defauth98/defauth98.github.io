@@ -3,6 +3,8 @@ import * as React from 'react';
 import { Container, Heading, Box, Text, Image, Link } from '@chakra-ui/react';
 
 import { motion } from 'framer-motion';
+import MenuBar from '../menu/MenuBar';
+
 import DanielPhoto from '../../images/daniel_ribeiro.jpg';
 import GithubLogo from '../../images/social-icons/github.png';
 import LinkedinLogo from '../../images/social-icons/linkedin.png';
@@ -17,9 +19,12 @@ function AboutMe() {
       bg="black.800"
       minHeight="100vh"
       maxWidth="100vw"
-      paddingTop={{ base: '7rem', md: '10rem', lg: '6rem', xl: '10rem' }}
+      paddingTop={{ base: '7rem', sm: '2rem', md: '10rem', lg: '6rem', xl: '10rem' }}
       maxW="container.4xl"
+      className="about-me"
     >
+      <MenuBar />
+
       <Image
         src={DanielPhoto}
         borderRadius="50%"
