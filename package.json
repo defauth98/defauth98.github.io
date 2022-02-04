@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build ",
-    "deploy": "tsc && vite build && gh-pages -d public -b main",
+    "deploy": "gh-pages -d dist -b main",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -12,3 +12,14 @@ export default interface ProjectType {
       node: boolean,
     },
 }
+
+export interface ProjectTags {
+  tags: {
+    js: boolean,
+    ts: boolean,
+    html: boolean,
+    css: boolean,
+    react: boolean,
+    node: boolean,
+  },
+}

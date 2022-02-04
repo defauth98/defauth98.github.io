@@ -7,8 +7,9 @@ import ReactLogo from '../../images/devicons/react-original.svg';
 import NodeLogo from '../../images/devicons/nodejs-original.svg';
 import HtmlLogo from '../../images/devicons/html5-original.svg';
 import CssLogo from '../../images/devicons/css3-original.svg';
+import {ProjectTags} from '../../types/project';
 
-function TagList({ tags }) {
+function TagList({ tags }: ProjectTags) {
   return (
     <Box display="flex" gap="0.4rem">
       {tags.js && (
