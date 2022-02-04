@@ -25,15 +25,22 @@ function AboutMe() {
       justifyContent="center"
       alignItems={{ sm: 'center', md: 'center' }}
       minHeight="100vh"
+      maxW="container.4xl"
     >
       <Container maxW="container.xl">
-        <Heading fontSize={{ base: '1.5em' }} fontWeight="semibold" marginBottom={{ base: '2rem' }}>
+        <Heading
+          fontSize={{ base: '1.5em', sm: '1.3rem', md: '1.8rem' }}
+          fontWeight="semibold"
+          marginBottom={{ base: '2rem', md: '4rem' }}
+          paddingTop={{ base: '0', sm: '4rem', '2xl': '0' }}
+          textAlign={{ sm: 'center' }}
+        >
           Tecnologias e ferramentas que conheço
         </Heading>
 
         <SimpleGrid
-          columns={{ base: 2, md: 3, lg: 6 }}
-          spacing={{ sm: 5, lg: 20 }}
+          columns={{ base: 2, md: 3, lg: 4 }}
+          spacing={{ sm: 5, lg: 10 }}
           maxW="container.xl"
           margin="0 auto"
           paddingBottom="1rem"
