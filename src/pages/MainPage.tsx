@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import * as React from 'react';
 
 import { Box } from '@chakra-ui/react';
