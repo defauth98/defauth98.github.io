@@ -44,7 +44,7 @@ function AboutMe() {
           spacing={{ sm: 5, lg: 10 }}
           maxW="container.xl"
           margin="0 auto"
-          paddingBottom="1rem"
+          paddingBottom="4rem"
         >
           <SkillItem
             icon={JavascriptIcon}
