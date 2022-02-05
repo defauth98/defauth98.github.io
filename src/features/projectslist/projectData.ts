@@ -12,8 +12,8 @@ const data = [
     description:
       'Projeto realizado durante o módulo de fundamentos da Trybe. Consiste na interface antiga de login do Facebook.',
     thumbnailPath: '/src/images/projects-thubnails/facebook-signin.png',
-    link: 'https://defauth98.github.io./projects/facebook-signup/index.html',
-    repoLink: 'https://github.com/defauth98/defauth98.github.io/tree/main/projects/facebook-signup',
+    link: 'https://defauth98-facebook.netlify.app/',
+    repoLink: 'https://github.com/defauth98/facebook-signup',
   },
   {
     title: 'Pixels Art',
@@ -28,8 +28,8 @@ const data = [
     description:
       'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
     thumbnailPath: '/src/images/projects-thubnails/pixels-art.png',
-    link: 'https://defauth98.github.io/projects/pixels-art/index.html',
-    repoLink: 'https://github.com/defauth98/defauth98.github.io/tree/main/projects/pixels-art',
+    link: 'https://defauth98-pixels-art.netlify.app/',
+    repoLink: 'https://github.com/defauth98/pixels-art',
   },
   {
     title: 'TodoList',
@@ -44,8 +44,8 @@ const data = [
     description:
       'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
     thumbnailPath: '/src/images/projects-thubnails/todo-list.png',
-    link: 'https://defauth98.github.io/projects/todo-list/index.html',
-    repoLink: 'https://github.com/defauth98/defauth98.github.io/tree/main/projects/todo-list',
+    link: 'https://defauth98-todo-list.netlify.app/',
+    repoLink: 'https://github.com/defauth98/todo-list',
   },
   {
     title: 'Shopping Cart',
@@ -60,7 +60,7 @@ const data = [
     description:
       'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de requisições para APIs em prática.',
     thumbnailPath: '/src/images/projects-thubnails/shopping-cart.png',
-    link: 'https://defauth98.github.io/projects/shopping-cart/index.html',
+    link: 'https://defauth98-shopping-cart.netlify.app/',
     repoLink: 'https://github.com/defauth98/shopping-cart',
   },
   {
