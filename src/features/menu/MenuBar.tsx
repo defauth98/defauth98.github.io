@@ -51,7 +51,7 @@ function MenuBar() {
       width="100vw"
       position={{ '2xl': 'fixed' }}
     >
-      <Box display="flex" color="white" alignItems="center" onClick={handleOpenLinkedin}>
+      <Box display="flex" color="white" alignItems="center" onClick={handleOpenLinkedin} cursor="pointer">
         <Image src="/src/images/daniel_ribeiro.jpg" alt="Foto do Daniel Ribeiro" width="30px" borderRadius="100%" />
         <Text paddingLeft="0.5rem">Daniel Ribeiro</Text>
       </Box>
@@ -63,17 +63,17 @@ function MenuBar() {
         alignItems="center"
         maxW={{ base: 'container.md', lg: 'container.xl' }}
       >
-        <Box display="flex" alignItems="center" color="white" onClick={scrollToAboutMe}>
+        <Box display="flex" alignItems="center" color="white" onClick={scrollToAboutMe}  cursor="pointer">
           <FiUser /> <Text paddingLeft="0.5rem">Sobre</Text>
         </Box>
-        <Box display="flex" alignItems="center" color="white" onClick={scrollToMySkills}>
+        <Box display="flex" alignItems="center" color="white" onClick={scrollToMySkills}  cursor="pointer">
           <FiGlobe /> <Text paddingLeft="0.5rem">Habilidades</Text>
         </Box>
-        <Box display="flex" alignItems="center" color="white" onClick={scrollToMyProjects}>
+        <Box display="flex" alignItems="center" color="white" onClick={scrollToMyProjects} cursor="pointer">
           <FiFolder /> <Text paddingLeft="0.5rem">Meus projetos</Text>
         </Box>
-        <Box onClick={handleOpenGithubRepo}>
-          <img src="/src/images/social-icons/github.png" alt="Logo do Github" width="30px" />
+        <Box onClick={handleOpenGithubRepo}  cursor="pointer">
+          <img src="/src/images/social-icons/github.png" alt="Logo do Github" width="30px"  />
         </Box>
       </Box>
     </Box>
