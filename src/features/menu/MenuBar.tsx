@@ -39,7 +39,7 @@ function MenuBar() {
 
   return (
     <Box
-      display="flex"
+      display={{base: "flex", sm: "none", md: "flex"}}
       gap="2rem"
       height="4rem"
       alignItems="center"
