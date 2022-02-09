@@ -49,7 +49,7 @@ function ProjectModal({ isOpen, onClose, project: { title, repoLink, thumbnailPa
           </Box>
 
           <Button colorScheme="blue" mr={3} onClick={onClose}>
-            Close
+            Fechar
           </Button>
         </ModalFooter>
       </ModalContent>
