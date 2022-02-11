@@ -19,9 +19,13 @@ function AboutMe() {
       bg="black.800"
       minHeight="100vh"
       maxWidth="100vw"
-      paddingTop={{ base: '7rem', sm: '2rem', md: '10rem', lg: '6rem', xl: '6erem' }}
+      // paddingTop={{ base: '7rem', sm: '2rem', md: '10rem', lg: '6rem', xl: '6erem' }}
       maxW="container.4xl"
       className="about-me"
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      justifyContent="center"
     >
       <MenuMobile />
 
