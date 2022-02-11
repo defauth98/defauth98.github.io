@@ -30,6 +30,7 @@ export function ProjectItem({ project }:  ProjectItemProps) {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       onClick={onOpen}
+      cursor="pointer"
     >
       <Image
         src={thumbnailPath}
