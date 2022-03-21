@@ -111,21 +111,6 @@ const data = [
   //   link: 'https://defauth98.github.io/trivia',
   //   repoLink: 'https://github.com/defauth98/trivia',
   // },
-  // {
-  //   title: 'Starwars Planets',
-  //   tags: {
-  //     js: true,
-  //     ts: false,
-  //     html: false,
-  //     css: false,
-  //     react: true,
-  //     node: false,
-  //   },
-  //   description: 'Projeto que usa dos métodos do Array para fazer busca.',
-  //   thumbnailPath: '/src/images/projects-thubnails/starwars-planets-search.png',
-  //   link: 'https://defauth98.github.io/starwars-planets-search/',
-  //   repoLink: 'https://github.com/defauth98/starwars-planets-search',
-  // },
   {
     title: 'Proffy',
     tags: {
