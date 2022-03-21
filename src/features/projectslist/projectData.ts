@@ -15,22 +15,22 @@ const data = [
     link: 'https://defauth98-facebook.netlify.app/',
     repoLink: 'https://github.com/defauth98/facebook-signup',
   },
-  {
-    title: 'Pixels Art',
-    tags: {
-      js: true,
-      ts: false,
-      html: true,
-      css: true,
-      react: false,
-      node: false,
-    },
-    description:
-      'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
-    thumbnailPath: '/src/images/projects-thubnails/pixels-art.png',
-    link: 'https://defauth98-pixels-art.netlify.app/',
-    repoLink: 'https://github.com/defauth98/pixels-art',
-  },
+  // {
+  //   title: 'Pixels Art',
+  //   tags: {
+  //     js: true,
+  //     ts: false,
+  //     html: true,
+  //     css: true,
+  //     react: false,
+  //     node: false,
+  //   },
+  //   description:
+  //     'Projeto bônus realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de manipulação da DOM em prática.',
+  //   thumbnailPath: '/src/images/projects-thubnails/pixels-art.png',
+  //   link: 'https://defauth98-pixels-art.netlify.app/',
+  //   repoLink: 'https://github.com/defauth98/pixels-art',
+  // },
   {
     title: 'TodoList',
     tags: {
@@ -79,22 +79,22 @@ const data = [
     link: 'https://defauth98.github.io/movie-cards-library-crud',
     repoLink: 'https://github.com/defauth98/movie-cards-library-crud',
   },
-  {
-    title: 'Frontend Online Store',
-    tags: {
-      js: true,
-      ts: false,
-      html: false,
-      css: false,
-      react: true,
-      node: false,
-    },
-    description:
-      'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos de Scrum e Kanban em prática',
-    thumbnailPath: '/src/images/projects-thubnails/frontend-online-store.png',
-    link: 'https://defauth98.github.io/frontend-online-store',
-    repoLink: 'https://github.com/defauth98/frontend-online-store',
-  },
+  // {
+  //   title: 'Frontend Online Store',
+  //   tags: {
+  //     js: true,
+  //     ts: false,
+  //     html: false,
+  //     css: false,
+  //     react: true,
+  //     node: false,
+  //   },
+  //   description:
+  //     'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos de Scrum e Kanban em prática',
+  //   thumbnailPath: '/src/images/projects-thubnails/frontend-online-store.png',
+  //   link: 'https://defauth98.github.io/frontend-online-store',
+  //   repoLink: 'https://github.com/defauth98/frontend-online-store',
+  // },
   {
     title: 'Trybewallet',
     tags: {
@@ -111,38 +111,37 @@ const data = [
     link: 'https://defauth98.github.io/trybewallet',
     repoLink: 'https://github.com/defauth98/trybewallet',
   },
-  {
-    title: 'Trivia',
-    tags: {
-      js: true,
-      ts: false,
-      html: false,
-      css: false,
-      react: true,
-      node: false,
-    },
-    description:
-      'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração. ',
-    thumbnailPath: '/src/images/projects-thubnails/trivia.png',
-    link: 'https://defauth98.github.io/trivia',
-    repoLink: 'https://github.com/defauth98/trivia',
-  },
-
-  {
-    title: 'Starwars Planets',
-    tags: {
-      js: true,
-      ts: false,
-      html: false,
-      css: false,
-      react: true,
-      node: false,
-    },
-    description: 'Projeto que usa dos métodos do Array para fazer busca.',
-    thumbnailPath: '/src/images/projects-thubnails/starwars-planets-search.png',
-    link: 'https://defauth98.github.io/starwars-planets-search/',
-    repoLink: 'https://github.com/defauth98/starwars-planets-search',
-  },
+  // {
+  //   title: 'Trivia',
+  //   tags: {
+  //     js: true,
+  //     ts: false,
+  //     html: false,
+  //     css: false,
+  //     react: true,
+  //     node: false,
+  //   },
+  //   description:
+  //     'Projeto em grupo realizado durante o módulo de frontend da Trybe. Com o objetivo de colocar os conhecimentos sobre Redux em prática e praticar mais a colaboração. ',
+  //   thumbnailPath: '/src/images/projects-thubnails/trivia.png',
+  //   link: 'https://defauth98.github.io/trivia',
+  //   repoLink: 'https://github.com/defauth98/trivia',
+  // },
+  // {
+  //   title: 'Starwars Planets',
+  //   tags: {
+  //     js: true,
+  //     ts: false,
+  //     html: false,
+  //     css: false,
+  //     react: true,
+  //     node: false,
+  //   },
+  //   description: 'Projeto que usa dos métodos do Array para fazer busca.',
+  //   thumbnailPath: '/src/images/projects-thubnails/starwars-planets-search.png',
+  //   link: 'https://defauth98.github.io/starwars-planets-search/',
+  //   repoLink: 'https://github.com/defauth98/starwars-planets-search',
+  // },
   {
     title: 'Proffy',
     tags: {
