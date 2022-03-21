@@ -50,6 +50,7 @@ function MenuBar() {
       borderBottom="2px solid #333"
       width="100vw"
       position={{ '2xl': 'fixed' }}
+      zIndex={2}
     >
       <Box display="flex" color="white" alignItems="center" onClick={handleOpenLinkedin} cursor="pointer">
         <Image src="/src/images/daniel_ribeiro.jpg" alt="Foto do Daniel Ribeiro" width="30px" borderRadius="100%" />
