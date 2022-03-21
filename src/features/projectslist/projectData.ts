@@ -48,22 +48,6 @@ const data = [
     repoLink: 'https://github.com/defauth98/todo-list',
   },
   {
-    title: 'Shopping Cart',
-    tags: {
-      js: true,
-      ts: false,
-      html: true,
-      css: true,
-      react: false,
-      node: false,
-    },
-    description:
-      'Projeto realizado durante o módulo de fundamentos da Trybe. Com o objetivo de colocar os conhecimentos de requisições para APIs em prática.',
-    thumbnailPath: '/src/images/projects-thubnails/shopping-cart.png',
-    link: 'https://defauth98-shopping-cart.netlify.app/',
-    repoLink: 'https://github.com/defauth98/shopping-cart',
-  },
-  {
     title: 'Movie Library CRUD',
     tags: {
       js: true,
