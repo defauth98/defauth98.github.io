@@ -11,7 +11,7 @@ Meu portfólio de projetos.
 
 ### :nut_and_bolt: Tecnologias
 
-Esse projeto foi desenvolvido com a seguinte tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React][react]
 - [Typescript][type]
