@@ -68,8 +68,11 @@ function AboutMe() {
         <MotionLink
           href="https://github.com/defauth98"
           isExternal
-          whileHover={{ rotate: 360, scale: 1.5 }}
           whileTap={{ scale: 0.9 }}
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 0.1 },
+          }}
         >
           <Image src={GithubLogo} width="2rem" />
         </MotionLink>
@@ -77,8 +80,11 @@ function AboutMe() {
         <MotionLink
           href="https://www.linkedin.com/in/daniel-ribeiro-vassao/"
           isExternal
-          whileHover={{ rotate: 360, scale: 1.5 }}
           whileTap={{ scale: 0.9 }}
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 0.1 },
+          }}
         >
           <Image src={LinkedinLogo} width="2rem" />
         </MotionLink>
@@ -86,8 +92,11 @@ function AboutMe() {
         <MotionLink
           href="mailto:neto.daniribeiro@gmail.com"
           isExternal
-          whileHover={{ rotate: 360, scale: 1.5 }}
           whileTap={{ scale: 0.9 }}
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 0.1 },
+          }}
         >
           <Image src={GmailLogo} width="2rem" />
         </MotionLink>

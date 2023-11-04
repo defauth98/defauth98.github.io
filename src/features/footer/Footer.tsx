@@ -36,9 +36,12 @@ export default function Footer() {
         <Box display={{ base: 'flex', sm: 'none', md: 'flex' }} justifyContent="space-between" gap="3rem">
           <MotionLink
             href="https://github.com/defauth98"
-            isExternal
-            whileHover={{ rotate: 360, scale: 1.5 }}
             whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.1 },
+            }}
+            isExternal
           >
             <Image src={GithubLogo} width="2rem" />
           </MotionLink>
@@ -46,8 +49,11 @@ export default function Footer() {
           <MotionLink
             href="https://www.linkedin.com/in/daniel-ribeiro-vassao/"
             isExternal
-            whileHover={{ rotate: 360, scale: 1.5 }}
             whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.1 },
+            }}
           >
             <Image src={LinkedinLogo} width="2rem" />
           </MotionLink>
@@ -55,8 +61,11 @@ export default function Footer() {
           <MotionLink
             href="mailto:neto.daniribeiro@gmail.com"
             isExternal
-            whileHover={{ rotate: 360, scale: 1.5 }}
             whileTap={{ scale: 0.9 }}
+            whileHover={{
+              scale: 1.5,
+              transition: { duration: 0.5 },
+            }}
           >
             <Image src={GmailLogo} width="2rem" />
           </MotionLink>
