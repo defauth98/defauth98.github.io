@@ -63,7 +63,7 @@ export default function Footer() {
             isExternal
             whileTap={{ scale: 0.9 }}
             whileHover={{
-              scale: 1.5,
+              scale: 1.2,
               transition: { duration: 0.1 },
             }}
           >
